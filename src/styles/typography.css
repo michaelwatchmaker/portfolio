@@ -9,12 +9,12 @@
     --text-section-height: 32px;
 
     /* BODY */
-    --text-body-size: 16px;
-    --text-body-height: 26px;
+    --text-body-size: 18px;
+    --text-body-height: 30px;
 
     /* META */
-    --text-meta-size: 14px;
-    --text-meta-height: 22px;
+    --text-meta-size: 15px;
+    --text-meta-height: 24px;
 
     /* LOGO */
     --text-logo-size: 18px;
@@ -69,7 +69,6 @@
     font-size: var(--text-title-size);
     line-height: var(--text-title-height);
     font-weight: 700;
-    text-align: left;
     color: var(--color-text-title-dark);
 }
 
@@ -77,3 +76,36 @@
     color: var(--color-text-title-alt);
 }
 
+.section {
+    font-size: var(--text-section-size);
+    line-height: var(--text-section-height);
+    font-weight: 700;
+}
+
+/* BODY */
+
+.body {
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-height);
+    font-weight: 400;
+    color: var(--color-text-body-dark);
+}
+
+/* STYLE */
+
+.body-alt {
+    color: var(--color-text-body-alt);
+}
+
+/* META */
+
+.meta {
+    font-size: var(--text-meta-size);
+    line-height: var(--text-meta-height);
+    font-weight: 400;
+    color: var(--color-text-body-dark);
+}
+
+.meta-alt {
+    color: var(--color-text-body-alt);
+}

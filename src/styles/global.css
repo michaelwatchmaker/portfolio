@@ -1,10 +1,19 @@
 @import "./typography.css";
 @import "./color.css";
 
+:root {
+  --radius: 22px;
+  --transition: 300ms;
+  --max-width: 1240px;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  transition: var(--transition);
 }
 
 html, body {
@@ -12,11 +21,28 @@ html, body {
 }
 
 body {
-  max-width: 1240px;
+  max-width: var(--max-width);
   margin: auto;
 }
 
 main {
   padding: 20px;
+  padding-top: 84px;
   width: 100%;
+  margin: auto;
+}
+
+/* CONTENT */
+
+article {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h1, h2, p{
+  padding-bottom: 20px;
 }

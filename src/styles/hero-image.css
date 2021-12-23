@@ -19,13 +19,3 @@
 .gatsby-image-wrapper div{
     transition: none !important;
 }
-
-/* COLORS */
-
-.none {
-    background-color: transparent;
-}
-
-.purple {
-    background-color: var(--color-accent-purple);
-}

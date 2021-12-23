@@ -1,12 +1,12 @@
 :root {
 
     /* TITLE */
-    --text-title-size: 32px;
+    --text-title-size: 34px;
     --text-title-height: 44px;
 
     /* SECTION */
-    --text-section-size: 22px;
-    --text-section-height: 32px;
+    --text-section-size: 26px;
+    --text-section-height: 36px;
 
     /* BODY */
     --text-body-size: 18px;
@@ -95,6 +95,13 @@
 
 .body-alt {
     color: var(--color-text-body-alt);
+}
+
+.body-compact {
+    font-size: var(--text-compact-size);
+    line-height: var(--text-compact-height);
+    font-weight: 400;
+    color: var(--color-text-body-dark);
 }
 
 /* META */

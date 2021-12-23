@@ -26,3 +26,28 @@
     --color-text-body-dark: #1B1B1D;
     --color-text-body-alt: #6B6B6C;
 }
+
+.none {
+    background-color: transparent;
+}
+
+.red {
+    background-color: var(--color-accent-red);
+}
+
+.orange {
+    background-color: var(--color-accent-green);
+}
+
+.green {
+    background-color: var(--color-accent-green);
+}
+
+.blue {
+    background-color: var(--color-accent-blue);
+}
+
+.purple {
+    background-color: var(--color-accent-purple);
+}
+

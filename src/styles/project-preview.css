@@ -1,0 +1,37 @@
+.project-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .project-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+
+    .project-wrapper .project-image {
+        grid-row: 1;
+    }
+}
+
+.project-details.reverse{
+    grid-column: 2;
+}
+
+.project-image.reverse{
+    grid-row: 1;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image {
+    border-radius: var(--radius);
+    background-color: var(--color-accent-purple);
+}

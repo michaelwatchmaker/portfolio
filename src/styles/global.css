@@ -36,13 +36,19 @@ main {
 
 article {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 80px auto;
 }
 
 section {
+  margin-bottom: 80px;
+}
+
+section > h1, section > h2, section > p, section > .project-image, section > .quote-wrapper{
   margin-bottom: 20px;
 }
 
-section h1, h2, p{
-  padding-bottom: 20px;
+.quote {
+  padding: 20px;
+  border-radius: var(--radius);
+  background-color: var(--color-grey-1);
 }

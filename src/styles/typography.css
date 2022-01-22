@@ -1,31 +1,3 @@
-:root {
-
-    /* TITLE */
-    --text-title-size: 34px;
-    --text-title-height: 44px;
-
-    /* SECTION */
-    --text-section-size: 26px;
-    --text-section-height: 36px;
-
-    /* BODY */
-    --text-body-size: 18px;
-    --text-body-height: 30px;
-
-    /* META */
-    --text-meta-size: 15px;
-    --text-meta-height: 24px;
-
-    /* LOGO */
-    --text-logo-size: 18px;
-    --text-logo-height: 24px;
-
-    /* Compact */
-    --text-compact-size: 16px;
-    --text-compact-height: 24px;
-}
-
-
 @font-face {
     font-family: "Inter";
     src: url("../fonts/Inter-Bold.ttf") format("ttf");
@@ -52,6 +24,39 @@
     src: url("../fonts/Inter-Regular.ttf") format("ttf");
     font-style: normal;
     font-weight: 400;
+}
+
+:root {
+
+    /* TITLE */
+    --text-title-size: 34px;
+    --text-title-height: 44px;
+
+    /* SECTION */
+    --text-section-size: 26px;
+    --text-section-height: 36px;
+
+    /* BODY */
+    --text-body-size: 18px;
+    --text-body-height: 30px;
+
+    /* META */
+    --text-meta-size: 15px;
+    --text-meta-height: 24px;
+
+    /* LOGO */
+    --text-logo-size: 18px;
+    --text-logo-height: 24px;
+
+    /* Compact */
+    --text-compact-size: 16px;
+    --text-compact-height: 24px;
+
+    /* Weight */
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
 }
 
 * {
@@ -88,20 +93,18 @@
     font-size: var(--text-body-size);
     line-height: var(--text-body-height);
     font-weight: 400;
-    color: var(--color-text-body-dark);
 }
 
 /* STYLE */
 
 .body-alt {
-    color: var(--color-text-body-alt);
+    color: var(--color-text-body-alt) !important;
 }
 
 .body-compact {
     font-size: var(--text-compact-size);
     line-height: var(--text-compact-height);
     font-weight: 400;
-    color: var(--color-text-body-dark);
 }
 
 /* META */
@@ -110,9 +113,36 @@
     font-size: var(--text-meta-size);
     line-height: var(--text-meta-height);
     font-weight: 400;
-    color: var(--color-text-body-dark);
 }
 
 .meta-alt {
-    color: var(--color-text-body-alt);
+    color: var(--color-text-body-alt) !important;
+}
+
+/* LINK */
+
+.link {
+    color: var(--color-primary-1);
+}
+
+.link:hover {
+    color: var(--color-primary-2);
+    text-decoration: underline;
+}
+
+/* WEIGHTS */
+
+.medium {
+    font-weight: var(--weight-medium);
+    color: inherit;
+}
+
+.semibold {
+    font-weight: var(--weight-semibold);
+    color: inherit;
+}
+
+.bold {
+    font-weight: var(--weight-bold );
+    color: inherit;
 }

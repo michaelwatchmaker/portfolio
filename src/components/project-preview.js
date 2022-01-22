@@ -7,8 +7,8 @@ const ProjectPreview = (props) => {
     return (
       <div className="project-wrapper">
           <div className="project-details">
-            <h2 className="section">{props.name}</h2>
-            <p className="body">{props.description}</p>
+            <h2 className="section project-title">{props.name}</h2>
+            <p className="body project-description">{props.description}</p>
             <Link to={props.page}>
                 <Button variant="alt">View Project</Button>
             </Link>

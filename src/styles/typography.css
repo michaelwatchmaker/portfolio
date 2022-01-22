@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Medium.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+
+    /* TITLE */
+    --text-title-size: 34px;
+    --text-title-height: 44px;
+
+    /* SECTION */
+    --text-section-size: 26px;
+    --text-section-height: 36px;
+
+    /* BODY */
+    --text-body-size: 18px;
+    --text-body-height: 30px;
+
+    /* META */
+    --text-meta-size: 15px;
+    --text-meta-height: 24px;
+
+    /* LOGO */
+    --text-logo-size: 18px;
+    --text-logo-height: 24px;
+
+    /* Compact */
+    --text-compact-size: 16px;
+    --text-compact-height: 24px;
+
+    /* Weight */
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+}
+
+* {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    text-rendering: optimizeLegibility;
+    color: var(--color-text-body-dark);
+}
+
+/* TITLE */
+
+.title {
+    font-size: var(--text-title-size);
+    line-height: var(--text-title-height);
+    font-weight: 700;
+    color: var(--color-text-title-dark);
+}
+
+.title-alt {
+    color: var(--color-text-title-alt);
+}
+
+.section {
+    font-size: var(--text-section-size);
+    line-height: var(--text-section-height);
+    font-weight: 700;
+}
+
+/* BODY */
+
+.body {
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-height);
+    font-weight: 400;
+}
+
+/* STYLE */
+
+.body-alt {
+    color: var(--color-text-body-alt) !important;
+}
+
+.body-compact {
+    font-size: var(--text-compact-size);
+    line-height: var(--text-compact-height);
+    font-weight: 400;
+}
+
+/* META */
+
+.meta {
+    font-size: var(--text-meta-size);
+    line-height: var(--text-meta-height);
+    font-weight: 400;
+}
+
+.meta-alt {
+    color: var(--color-text-body-alt) !important;
+}
+
+/* LINK */
+
+.link {
+    color: var(--color-primary-1);
+}
+
+.link:hover {
+    color: var(--color-primary-2);
+    text-decoration: underline;
+}
+
+/* WEIGHTS */
+
+.medium {
+    font-weight: var(--weight-medium);
+    color: inherit;
+}
+
+.semibold {
+    font-weight: var(--weight-semibold);
+    color: inherit;
+}
+
+.bold {
+    font-weight: var(--weight-bold );
+    color: inherit;
+}

@@ -1,59 +1,37 @@
-@font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Bold.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-SemiBold.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Medium.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Regular.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 400;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@700&display=swap');
 
 :root {
 
-    /* TITLE */
-    --text-title-size: 34px;
-    --text-title-height: 44px;
+    /* 400 */
+    --text-header-400-size: 64px;
+    --text-header-400-height: 80px;
 
-    /* SECTION */
-    --text-section-size: 26px;
-    --text-section-height: 36px;
+    /* 400 */
+    --text-header-300-size: 48px;
+    --text-header-300-height: 64px;
+
+    /* 400 */
+    --text-header-200-size: 36px;
+    --text-header-200-height: 48px;
+
+    /* 400 */
+    --text-header-100-size: 25px;
+    --text-header-100-height: 32px;
 
     /* BODY */
-    --text-body-size: 18px;
-    --text-body-height: 30px;
+    --text-body-size: 19px;
+    --text-body-height: 32px;
 
     /* META */
-    --text-meta-size: 15px;
+    --text-meta-size: 17px;
     --text-meta-height: 24px;
 
-    /* LOGO */
-    --text-logo-size: 18px;
-    --text-logo-height: 24px;
-
     /* Compact */
-    --text-compact-size: 16px;
+    --text-compact-size: 17px;
     --text-compact-height: 24px;
 
     /* Weight */
-    --weight-medium: 500;
+    --weight-regular: 400;
     --weight-semibold: 600;
     --weight-bold: 700;
 
@@ -70,21 +48,78 @@
 
 /* TITLE */
 
-.title {
-    font-size: var(--text-title-size);
-    line-height: var(--text-title-height);
-    font-weight: 700;
-    color: var(--color-text-title-dark);
+h1, h2, h3, h4{
+    font-family: "Outfit";
+    color: var(--color-text-header-dark);
 }
 
-.title-alt {
-    color: var(--color-text-title-alt);
+h1 {
+    font-size: var(--text-header-400-size);
+    line-height: var(--text-header-400-height);
 }
 
-.section {
-    font-size: var(--text-section-size);
-    line-height: var(--text-section-height);
-    font-weight: 700;
+h2 {
+    font-size: var(--text-header-300-size);
+    line-height: var(--text-header-300-height);
+}
+
+h3 {
+    font-size: var(--text-header-200-size);
+    line-height: var(--text-header-200-height);
+}
+
+h4 {
+    font-size: var(--text-header-100-size);
+    line-height: var(--text-header-100-height);
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: var(--text-header-300-size);
+        line-height: var(--text-header-300-height);
+    }
+    
+    h2 {
+        font-size: var(--text-header-200-size);
+        line-height: var(--text-header-200-height);
+    }
+    
+    h3 {
+        font-size: var(--text-header-100-size);
+        line-height: var(--text-header-100-height);
+    }
+    
+    h4 {
+        font-size: var(--text-header-100-size);
+        line-height: var(--text-header-100-height);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: var(--text-header-200-size);
+        line-height: var(--text-header-200-height);
+    }
+    
+    h2 {
+        font-size: var(--text-header-200-size);
+        line-height: var(--text-header-200-height);
+    }
+    
+    h3 {
+        font-size: var(--text-header-100-size);
+        line-height: var(--text-header-100-height);
+    }
+    
+    h4 {
+        font-size: var(--text-header-100-size);
+        line-height: var(--text-header-100-height);
+    }
+}
+
+.header-alt {
+    font-family: "Outfit";
+    opacity: 40%;
 }
 
 /* BODY */
@@ -122,12 +157,14 @@
 /* LINK */
 
 .link {
-    color: var(--color-primary-1);
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--color-text-body-dark);
+    font-weight: var(--weight-semibold);
 }
 
 .link:hover {
-    color: var(--color-primary-2);
-    text-decoration: underline;
+    color: var(--color-text-body-alt);
+    border-color: var(--color-text-body-alt);
 }
 
 /* WEIGHTS */
@@ -145,4 +182,17 @@
 .bold {
     font-weight: var(--weight-bold );
     color: inherit;
+}
+
+/* ALIGNMENT */
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
 }

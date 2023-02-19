@@ -3,6 +3,10 @@ import * as React from "react";
 import Button from "../components/button";
 import Navigation from "../components/nav";
 import ArrowRight from "../images/ArrowRight";
+import Cornhole from "../images/cornhole.gif";
+import Beer from "../images/beer.jpg";
+import Baseball from "../images/baseball.jpg";
+import DiscThrow from "../images/disc-throw.jpg";
 import "../styles/global.css";
 
 const Home = () => {
@@ -25,10 +29,10 @@ const Home = () => {
               </Link>
             </div>
             <div className="gallery">
-              <div className="gallery-item a"></div>
-              <div className="gallery-item b"></div>
-              <div className="gallery-item c"></div>
-              <div className="gallery-item d"></div>
+              <img src={Baseball} alt="baseball" className="gallery-item a"/>
+              <img src={Cornhole} alt="cornhole" className="gallery-item b"/>
+              <img src={Beer} alt="beer" className="gallery-item c"/>
+              <img src={DiscThrow} alt="disc-throw" className="gallery-item d"/>
             </div>
           </div>
         <div className="callout">

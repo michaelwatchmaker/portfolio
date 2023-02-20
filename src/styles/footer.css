@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Contact banner */
+
+.contact-wrapper {
+    display: flex;
+    background-color: lightblue;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--radius-lg);
+    background: var(--color-base-black);
+}
+
+.contact-wrapper h2{
+    color: white;
+}
+
+.contact-alt {
+    color: white;
+    opacity: 50%;
+}
+
+/* Bottom links */
+
+.bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-wrapper p {
+    color: var(--color-text-body-alt);
+}
+
+.footer-links {
+    display: flex;
+}

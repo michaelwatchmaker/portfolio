@@ -3,37 +3,43 @@ button {
     width: auto;
     min-width: 44px;
     display: flex;
-    padding: 10px 20px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-button);
     justify-content: center;
     align-items: center;
     font-size: var(--text-compact-size);
     line-height: var(--text-compact-height);
-    font-weight: 600;
+    font-weight: var(--weight-semibold);
 }
 
 button svg {
-    height: 24px;
-    width: 24px;
+    height: 22px;
+    width: 22px;
 }
 
 button:hover {
     cursor: pointer;
 }
 
+/* TEXT */
+
+.button {
+    padding: 10px 20px;
+    gap: 5px;
+}
+
 /* PRIMARY */
 
 .primary {
-    background-color: var(--color-primary-1);
+    background-color: var(--color-base-black);
     color: var(--color-base-white);
 }
 
 .primary:hover {
-    background-color: var(--color-primary-2);
+    opacity: 85%;
 }
 
 .primary:active {
-    background-color: var(--color-primary-3);
+    opacity: 100%;
 }
 
 .primary a {
@@ -43,19 +49,28 @@ button:hover {
 /* ALT */
 
 .alt {
-    background-color: var(--color-grey-1);
-    color: var(--color-tex-body-dark);
+    background-color: var(--color-grey-2);
+    color: var(--color-text-body-dark);
 }
 
 .alt:hover {
-    background-color: var(--color-grey-2);
-}
-
-.alt:active {
     background-color: var(--color-grey-3);
 }
 
-.icon {
-    padding: 10px;
-    width: 44px;
+.alt:active {
+    background-color: var(--color-grey-2);
+}
+
+/* ICON BUTTON */
+
+.ghost {
+    background-color: transparent;
+}
+
+.ghost:hover {
+    background-color: var(--color-grey-2);
+}
+
+.ghost:active {
+    background-color: var(--color-grey-3);
 }

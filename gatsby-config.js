@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/portfolio",
   siteMetadata: {
     siteUrl: "https://www.michaelwatchmaker.com",
     title: "Portfolio",

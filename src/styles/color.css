@@ -7,6 +7,7 @@
     --color-grey-1: #FBFBFA;
     --color-grey-2: #EEEEED;
     --color-grey-3: #E2E2E0;
+    --color-grey-4: #C8C8C7;
 
     /* ACCENT */
     --color-accent-red: #FA8F95;
@@ -19,7 +20,7 @@
     --color-text-header-dark: #282725;
     --color-text-header-alt: #D9D9D9;
     --color-text-body-dark: #282725;
-    --color-text-body-alt: ##777777;
+    --color-text-body-alt: #777777;
 }
 
 .none {

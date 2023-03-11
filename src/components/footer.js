@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import Button from "./button";
-import "../styles/footer.css";
 import ArrowExternal from "../images/ArrowExternal";
+import "../styles/footer.css";
 
 const Footer = () => {
 
@@ -15,11 +15,11 @@ const Footer = () => {
             <Button variant="button alt">Email</Button>
         </div>
         <div className="bottom-wrapper">
-            <p>Michael Watchmaker {year}</p>
+            <p className="footer-name">Michael Watchmaker {year}</p>
             <div className="footer-links">
                 <Link to="/about">
                     <Button variant="button ghost">
-                        About me
+                        About
                     </Button>
                 </Link>
                 <Button variant="button ghost">Resume<ArrowExternal/></Button>

@@ -23,31 +23,7 @@
     --color-text-body-alt: #777777;
 }
 
-.none {
+.transparent {
     background-color: transparent;
-}
-
-.grey {
-    background-color: var(--color-grey-2);
-}
-
-.red {
-    background-color: var(--color-accent-red);
-}
-
-.orange {
-    background-color: var(--color-accent-green);
-}
-
-.green {
-    background-color: var(--color-accent-green);
-}
-
-.blue {
-    background-color: var(--color-accent-blue);
-}
-
-.purple {
-    background-color: var(--color-accent-purple);
 }
 

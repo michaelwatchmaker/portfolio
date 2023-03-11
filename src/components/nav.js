@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 import Button from "./button";
-import "../styles/nav.css";
 import ArrowExternal from "../images/ArrowExternal";
 import Logo from "../images/Logo";
+import "../styles/nav.css";
 
 const Navigation = () => {
     return (

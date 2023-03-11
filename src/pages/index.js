@@ -1,14 +1,15 @@
 import { Link } from "gatsby";
 import * as React from "react";
-import Button from "../components/button";
 import Navigation from "../components/nav";
+import Footer from "../components/footer";
+import "../styles/global.css";
+import Button from "../components/button";
 import ArrowRight from "../images/ArrowRight";
 import Cornhole from "../images/cornhole.gif";
 import Beer from "../images/beer.jpg";
 import Baseball from "../images/baseball.jpg";
 import DiscThrow from "../images/disc-throw.jpg";
 import "../styles/global.css";
-import Footer from "../components/footer";
 
 const Home = () => {
   return (

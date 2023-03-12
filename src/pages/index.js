@@ -6,9 +6,9 @@ import "../styles/global.css";
 import Button from "../components/button";
 import ArrowRight from "../images/ArrowRight";
 import Cornhole from "../images/cornhole.gif";
-import Beer from "../images/beer.jpg";
-import Baseball from "../images/baseball.jpg";
-import DiscThrow from "../images/disc-throw.jpg";
+import Beer from "../images/beer.jpeg";
+import Baseball from "../images/baseball.jpeg";
+import DiscThrow from "../images/disc-throw.jpeg";
 import "../styles/global.css";
 
 const Home = () => {

@@ -2,12 +2,12 @@ import * as React from "react";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
 import "../styles/global.css";
-import BeerPretzel from "../images/beer-pretzel.jpg";
-import Breakfast from "../images/breakfast.jpg";
-import DiscBag from "../images/disc-bag.jpg";
-import Giants from "../images/giants.jpg";
-import Hike from "../images/hike.jpg";
-import Sandwich from "../images/sandwich.jpg";
+import BeerPretzel from "../images/beer-pretzel.jpeg";
+import Breakfast from "../images/breakfast.jpeg";
+import DiscBag from "../images/disc-bag.jpeg";
+import Giants from "../images/giants.jpeg";
+import Hike from "../images/hike.jpeg";
+import Sandwich from "../images/sandwich.jpeg";
 
 const About = () => {
   return (

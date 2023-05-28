@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import Button from "./button";
-import ArrowExternal from "../images/ArrowExternal";
 import Logo from "../images/Logo";
 import "../styles/nav.css";
 
@@ -15,7 +14,7 @@ const Navigation = () => {
           <Link to="/about">
             <Button variant="button ghost">About</Button>
           </Link>
-            <Button variant="button alt">Resume<ArrowExternal/></Button>
+            <Button variant="button primary">Say hi 👋</Button>
         </div>
       </nav>
     );

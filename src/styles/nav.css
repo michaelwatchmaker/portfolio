@@ -1,9 +1,11 @@
 nav {
-    margin: 0 20px;
-    padding: 20px 0;
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 .nav-links {

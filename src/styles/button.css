@@ -3,12 +3,12 @@ button {
     width: auto;
     min-width: 44px;
     display: flex;
-    border-radius: var(--radius-button);
+    border-radius: var(--radius-full);
     justify-content: center;
     align-items: center;
-    font-size: var(--text-compact-size);
-    line-height: var(--text-compact-height);
-    font-weight: var(--weight-semibold);
+    font-size: var(--text-body-md);
+    line-height: var(--text-height-button);
+    font-weight: var(--text-weight-semibold);
 }
 
 button svg {
@@ -61,7 +61,7 @@ button:hover {
     background-color: var(--color-grey-2);
 }
 
-/* ICON BUTTON */
+/* GHOST BUTTON */
 
 .ghost {
     background-color: transparent;

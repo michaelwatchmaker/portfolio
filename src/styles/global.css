@@ -2,9 +2,11 @@
 @import "./color.css";
 
 :root {
-  --radius-button: 22px;
+  --radius-sm: 5px;
+  --radius-md: 10px;
   --radius-lg: 20px;
-  --radius-sm: 10px;
+  --radius-xl: 40px;
+  --radius-full: 999px;
   --transition: 250ms;
   --max-width: 1440px;
 }
@@ -19,16 +21,19 @@
 }
 
 body {
+  width: 100%;
   margin: auto;
-  max-width: var(--max-width);
-  background: var(--color-grey-1);
+  background: var(--color-base-white);
+  scroll-behavior: smooth;
 }
 
 main {
-  margin: 200px 20px 200px 20px;
+  max-width: var(--max-width);
+  margin: 200px auto;
   display: flex;
   flex-direction: column;
   gap: 200px;
+  padding: 0 20px;
 }
 
 img {
@@ -44,20 +49,21 @@ img {
   width: 100%;
   max-width: 800px;
   margin: auto;
-  align-items: flex-start;
+  align-items: center;
 }
 
 /* GALLERY */
 
 .section-about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 80px;
 }
 
 .section-content {
   display: flex;
+  flex: 1 0 400px;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -66,9 +72,11 @@ img {
 .gallery {
   aspect-ratio: 1;
   display: grid;
+  flex: 1 0 400px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-gap: 40px;
+  max-height: 660px;
 }
 
 .gallery-item {
@@ -99,16 +107,22 @@ img {
   grid-row: span 2;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .section-about {
-    grid-template-columns: auto;
+    display: flex;
+    grid-template-columns: none;
   }
   
   .section-content {
     gap: 20px;
+    width: 100%;
+    flex: none;
   }
   
   .gallery {
+    width: 100%;
+    max-height: none;
+    flex: none;
     grid-gap: 20px;
   }
   
@@ -166,7 +180,7 @@ img {
   gap: 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .about-images {
     gap: 20px;
   }
@@ -183,4 +197,21 @@ img {
   .about-images-section img {
     border-radius: var(--radius-sm);
   }
+}
+
+.name-script {
+  height: 120px;
+}
+
+@media screen and (max-width: 700px) {
+  .name-script {
+    height: 72px;
+  }
+}
+
+.experience-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
 }

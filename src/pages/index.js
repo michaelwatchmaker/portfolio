@@ -22,7 +22,7 @@ const Home = () => {
           </h1> 
           <div className="section-about">
             <div className="section-content">
-              <h2 className="left">Some of the other stuff I like to do 😄</h2>
+              <h2 className="left">When I’m not at my desk...</h2>
               <Link to="/about">
                 <Button variant="button alt">
                   About me

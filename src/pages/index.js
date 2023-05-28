@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import "../styles/global.css";
 import Button from "../components/button";
 import ArrowRight from "../images/ArrowRight";
-import Cornhole from "../images/cornhole.gif";
+import Cornhole from "../images/cornhole.webm";
 import Beer from "../images/beer.jpeg";
 import Baseball from "../images/baseball.jpeg";
 import DiscThrow from "../images/disc-throw.jpeg";
@@ -32,7 +32,9 @@ const Home = () => {
             </div>
             <div className="gallery">
               <img src={Baseball} alt="baseball" className="gallery-item a"/>
-              <img src={Cornhole} alt="cornhole" className="gallery-item b"/>
+              <video autoPlay loop muted className="gallery-item b">
+                <source src={Cornhole}></source>
+              </video>
               <img src={Beer} alt="beer" className="gallery-item c"/>
               <img src={DiscThrow} alt="disc-throw" className="gallery-item d"/>
             </div>

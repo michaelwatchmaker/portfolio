@@ -195,7 +195,7 @@ img {
   }
 
   .about-images-section img {
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
   }
 }
 
@@ -206,6 +206,10 @@ img {
 @media screen and (max-width: 700px) {
   .name-script {
     height: 72px;
+  }
+
+  .hello-about {
+    gap: 20px;
   }
 }
 

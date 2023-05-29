@@ -16,7 +16,7 @@ const About = () => {
     <div>
         <Navigation/>
         <main>
-          <div className="text-section">
+          <div className="text-section hello-about">
             <h1 className="center">Hello, my name is</h1>
             <NameScript/>
           </div>

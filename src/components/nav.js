@@ -14,7 +14,9 @@ const Navigation = () => {
           <Link to="/about">
             <Button variant="button ghost">About</Button>
           </Link>
-            <Button variant="button primary">Say hi 👋</Button>
+          <a href="mailto:michaelwatchmaker@outlook.com">
+            <Button variant="button primary">Say hi 👋🏼</Button>
+          </a>
         </div>
       </nav>
     );

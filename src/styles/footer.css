@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    gap: 80px;
     width: 100%;
     background-color: var(--color-grey-1);
 }
@@ -13,7 +12,7 @@
 .contact-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 80px 0;
+    padding: 200px 0;
     align-items: center;
     gap: 40px;
     width: 100%;
@@ -37,20 +36,21 @@
     max-width: var(--max-width);
 }
 
+@media screen and (max-width: 800px) {
+    .bottom-wrapper {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+}
+
 .footer-name {
     font-size: var(--text-body-md);
     color: var(--color-text-body-alt);
     text-align: center;
 }
 
-.footer-links {
-    display: flex;
-    gap: 10px;
+.footer-links{
+    font-size: var(--text-body-md);
+    color: var(--color-grey-4);
+    text-align: center;
 }
-
-@media screen and (max-width: 800px) {
-    .bottom-wrapper {
-        flex-direction: column;
-        gap: 20px;
-    }
-  }

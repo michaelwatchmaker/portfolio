@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
 import Button from "./button";
-import ArrowExternal from "../images/ArrowExternal";
 import "../styles/footer.css";
 
 const Footer = () => {
@@ -11,17 +9,14 @@ const Footer = () => {
     return (
       <div className="footer">
         <div className="contact-wrapper">
-            <h2 className="center">Wanna know more? Let’s chat 🤝</h2>
-            <Button variant="button primary">Say hi</Button>
+            <h2 className="center">Wanna know more? Let’s chat 🤝🏼</h2>
+            <a href="mailto:michaelwatchmaker@outlook.com">
+              <Button variant="button primary">Say hi</Button>
+            </a>
         </div>
         <div className="bottom-wrapper">
             <p className="footer-name">Michael Watchmaker {year}</p>
-            <div className="footer-links">
-                <Link to="/about">
-                    <Button variant="button ghost">About</Button>
-                </Link>
-                <Button variant="button ghost">Resume<ArrowExternal/></Button>
-            </div>
+            <p className="footer-links"><a className="link" href="https://drive.google.com/file/d/1de34roIluOb5ffRdNpmCMjn2YcAGnr_W/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>   /   <a className="link" href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">Figma</a>   /   <a className="link" href="https://www.linkedin.com/in/michaelwatchmaker/" target="_blank" rel="noreferrer">LinkedIn</a></p>
         </div>
       </div>
     );

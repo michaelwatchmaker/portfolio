@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ArrowExternal({
   size = 24,
-  color = "#282725"
+  color = "#1c1c1e"
 }) {
   return (
     <svg

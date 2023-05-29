@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Logo({
   size = 44,
-  color = "#282725"
+  color = "#1c1c1e"
 }) {
   return (
     <svg

@@ -10,7 +10,7 @@ const ProjectTile = (props) => {
                 <h3 className="project-tile-title">{props.title}<br/><span className={`${props.theme}-company`}>{props.company}</span></h3>
                 <ArrowRight size={44}/>
             </div>
-            <img src={props.image} />
+            <img src={props.image} alt="project tile"/>
         </Link>
     );
 };

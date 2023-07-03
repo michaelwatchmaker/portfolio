@@ -44,10 +44,10 @@ const ProjSandbox = () => {
             </video>
           </div>
           <div className="sandbox-tile tile-c">
-            <img src={Triage}/>
+            <img src={Triage} alt="triage"/>
           </div>
           <div className="sandbox-tile tile-d">
-            <img src={Icons}/>
+            <img src={Icons} alt="icons"/>
           </div>
           <div className="sandbox-tile tile-e">
             <video autoPlay loop muted>

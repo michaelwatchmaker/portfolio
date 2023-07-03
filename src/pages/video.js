@@ -4,13 +4,13 @@ import Footer from "../components/footer";
 import "../styles/project.css";
 import Colorizer from "../components/colorizer";
 import SummaryBrick from "../components/summaryBrick";
-import Background from "../images/video/background.png";
-import OrigFlow from "../images/video/original-flow.png";
-import OrigScreens from "../images/video/original-screens.png";
-import OrigEMR from "../images/video/original-emr.png";
-import FlowVisit from "../images/video/flow-visit.png";
-import FlowStart from "../images/video/flow-start.png";
-import FlowJoin from "../images/video/flow-join.png";
+import Background from "../images/Video/background.png";
+import OrigFlow from "../images/Video/original-flow.png";
+import OrigScreens from "../images/Video/original-screens.png";
+import OrigEMR from "../images/Video/original-emr.png";
+import FlowVisit from "../images/Video/flow-visit.png";
+import FlowStart from "../images/Video/flow-start.png";
+import FlowJoin from "../images/Video/flow-join.png";
 
 const ProjSearch = () => {
   return (

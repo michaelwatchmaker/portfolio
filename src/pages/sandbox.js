@@ -32,15 +32,15 @@ const ProjSandbox = () => {
       <main>
         <div className="sandbox-gallery">
           <div className="sandbox-tile tile-a">
-            <video autoPlay loop muted>
-              <source src={ThumbnailWEBM}></source>
-              <source src={ThumbnailMP4}></source>
+            <video playsInline autoPlay loop muted>
+              <source type="video/webm" src={ThumbnailWEBM}></source>
+              <source type="video/mp4" src={ThumbnailMP4}></source>
             </video>
           </div>
           <div className="sandbox-tile tile-b">
-            <video autoPlay loop muted>
-              <source src={MapWEBM}></source>
-              <source src={MapMP4}></source>
+            <video playsInline autoPlay loop muted>
+              <source type="video/webm" src={MapWEBM}></source>
+              <source type="video/mp4" src={MapMP4}></source>
             </video>
           </div>
           <div className="sandbox-tile tile-c">
@@ -50,15 +50,15 @@ const ProjSandbox = () => {
             <img src={Icons} alt="icons"/>
           </div>
           <div className="sandbox-tile tile-e">
-            <video autoPlay loop muted>
-              <source src={TalkWEBM}></source>
-              <source src={TalkMP4}></source>
+            <video playsInline autoPlay loop muted>
+              <source type="video/webm" src={TalkWEBM}></source>
+              <source type="video/mp4" src={TalkMP4}></source>
             </video>
           </div>
           <div className="sandbox-tile tile-f">
-            <video autoPlay loop muted>
-              <source src={SkeletonWEBM}></source>
-              <source src={SkeletonMP4}></source>
+            <video playsInline autoPlay loop muted>
+              <source type="video/webm" src={SkeletonWEBM}></source>
+              <source type="video/mp4" src={SkeletonMP4}></source>
             </video>
           </div>
         </div>

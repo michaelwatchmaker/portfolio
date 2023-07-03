@@ -67,9 +67,9 @@ const Home = () => {
             </div>
             <div className="gallery">
               <img src={Baseball} alt="baseball" className="gallery-item a"/>
-              <video autoPlay loop muted className="gallery-item b">
-                <source src={CornholeWEBM}></source>
-                <source src={CornholeMP4}></source>
+              <video playsInline autoPlay loop muted className="gallery-item b">
+                <source type="video/webm" src={CornholeWEBM}></source>
+                <source type="video/mp4" src={CornholeMP4}></source>
               </video>
               <img src={Beer} alt="beer" className="gallery-item c"/>
               <img src={DiscThrow} alt="disc-throw" className="gallery-item d"/>

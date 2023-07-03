@@ -1,4 +1,5 @@
 import * as React from "react";
+import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
 import "../styles/global.css";
@@ -14,7 +15,12 @@ import ArrowRight from "../images/ArrowRight";
 const About = () => {
   return (
     <div>
-        <Navigation/>
+        <Colorizer
+        hex= '#ffffff'
+        />
+        <Navigation
+          theme="dark"
+        />
         <main>
           <div className="text-section hello-about">
             <h1 className="center">Hello, my name is</h1>
@@ -46,10 +52,10 @@ const About = () => {
             <p className="body left">When I’m not at my desk I enjoy 🍺 craft beer, 🥏 disc golf, 🚗 Rocket League, 🍜 noodles, and watching the ⚽️ US Men’s National Team.</p>
           </div>
           <div className="text-section">
-            <p className="display left semibold">Experience</p>
+            <h4>Experience</h4>
             <div className="experience-block">
               <p className="body left semibold text-alt">2021 <ArrowRight size={22}/> Present</p>
-              <p className="body left">Recently, I’ve taken GoodRx Provider Mode from an idea to one of the largest provider platforms in the United States. We released a video for our investors and the public to learn more about it.</p>
+              <p className="body left">Recently, I’ve taken GoodRx Provider Mode from an idea to the largest provider platform in the United States. We released a <a className="link" href="https://drive.google.com/file/d/1HDe7d0UHXkI3fKUygWxkxUPHIK9zrLMq/view?usp=sharing" target="_blank" rel="noreferrer">video</a> for our investors and the public to learn more about it.</p>
             </div>
             <div className="experience-block">
               <p className="body left semibold text-alt">2019 <ArrowRight size={22}/> 2021</p>

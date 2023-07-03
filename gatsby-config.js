@@ -14,7 +14,7 @@ module.exports = {
         web: [
           {
             name: `Outfit`,
-            file: `https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap`,
           },
           {
             name: `Inter`,

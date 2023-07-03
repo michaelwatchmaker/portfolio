@@ -29,48 +29,93 @@ button:hover {
 
 /* PRIMARY */
 
-.primary {
+.dark-primary {
     background-color: var(--color-base-black);
     color: var(--color-base-white);
 }
 
-.primary:hover {
+.dark-primary:hover {
     opacity: 85%;
 }
 
-.primary:active {
+.dark-primary:active {
     opacity: 100%;
 }
 
-.primary a {
+.dark-primary a {
     color: var(--color-base-white);
 }
 
 /* ALT */
 
-.alt {
+.dark-alt {
     background-color: var(--color-grey-2);
     color: var(--color-text-body-dark);
 }
 
-.alt:hover {
+.dark-alt:hover {
     background-color: var(--color-grey-3);
 }
 
-.alt:active {
+.dark-alt:active {
     background-color: var(--color-grey-2);
 }
 
 /* GHOST BUTTON */
 
-.ghost {
+.dark-ghost {
     background-color: transparent;
 }
 
-.ghost:hover {
+.dark-ghost:hover {
     background-color: var(--color-grey-2);
 }
 
-.ghost:active {
+.dark-ghost:active {
     background-color: var(--color-grey-3);
+}
+
+/* WHITE */
+
+.white-primary {
+    background-color: var(--color-base-white);
+    color: var(--color-text-body-dark);
+}
+
+.white-primary:hover {
+    opacity: 85%;
+}
+
+.white-primary:active {
+    opacity: 100%;
+}
+
+/* ALT */
+
+.white-alt {
+    background-color: var(--color-grey-2);
+    color: var(--color-base-white);
+}
+
+.white-alt:hover {
+    background-color: var(--color-grey-3);
+}
+
+.white .alt:active {
+    background-color: var(--color-grey-2);
+}
+
+/* GHOST BUTTON */
+
+.white-ghost {
+    color: var(--color-base-white);
+    background-color: transparent;
+}
+
+.white-ghost:hover {
+    background-color: var(--color-grey-3);
+}
+
+.white-ghost:active {
+    background-color: var(--color-grey-4);
 }

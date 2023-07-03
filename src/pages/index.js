@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import * as React from "react";
+import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
 import "../styles/global.css";
@@ -11,21 +12,54 @@ import Beer from "../images/beer.jpeg";
 import Baseball from "../images/baseball.jpeg";
 import DiscThrow from "../images/disc-throw.jpeg";
 import "../styles/global.css";
+import ProjectTile from "../components/projectTile";
+import TileVideo from "../images/tile-video.png";
+import TileSearch from "../images/tile-search.png";
+import TileSandbox from "../images/tile-sandbox.png";
 
 const Home = () => {
   return (
     <div>
-      <Navigation/>
+      <Navigation
+        theme="dark"
+      />
+      <Colorizer
+        hex= '#ffffff'
+      />
       <main>
-          <h1 className="left">Sup, I'm Michael ✌🏼
+          <h1 className="left">Sup, I'm Michael
             <br/>
             <span className="header-alt">I discover and solve people problems to drive business outcomes</span>
-          </h1> 
+          </h1>
+          <div className="tile-wrapper">
+            <div className="project-tiles">
+              <ProjectTile
+                theme="blue"
+                route="/video"
+                title="Video"
+                company="HeyDoctor"
+                image={TileVideo}
+              />
+              <ProjectTile
+                theme="purple"
+                route="/search"
+                title="Search"
+                company="GoodRx"
+                image={TileSearch}
+              />
+            </div>
+            <ProjectTile
+              theme="sandbox"
+              route="/sandbox"
+              title="Sandbox"
+              image={TileSandbox}
+            />
+          </div>
           <div className="section-about">
             <div className="section-content">
               <h2 className="left">When I’m not at my desk...</h2>
               <Link to="/about">
-                <Button variant="button alt">
+                <Button variant="button dark-alt">
                   About me
                   <ArrowRight/>
                 </Button>

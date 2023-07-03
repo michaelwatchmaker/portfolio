@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="contact-wrapper">
             <h2 className="center">Wanna know more? Let’s chat 🤝🏼</h2>
             <a href="mailto:michaelwatchmaker@outlook.com">
-              <Button variant="button primary">Say hi</Button>
+              <Button variant="button dark-primary">Say hi</Button>
             </a>
         </div>
         <div className="bottom-wrapper">

@@ -1,8 +1,10 @@
 import * as React from "react";
+
+import "../styles/project.css";
+
+import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
-import "../styles/project.css";
-import Colorizer from "../components/colorizer";
 
 import ThumbnailWEBM from "../images/Sandbox/thumbnail.webm";
 import MapWEBM from "../images/Sandbox/map.webm";
@@ -20,6 +22,7 @@ import Icons from "../images/Sandbox/icons.png";
 const ProjSandbox = () => {
   return (
     <div>
+      <title>Michael Watchmaker</title>
       <Colorizer
         hex= '#1c1c1e'
       />

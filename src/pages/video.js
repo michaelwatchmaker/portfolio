@@ -1,9 +1,13 @@
 import * as React from "react";
+
+import "../styles/project.css";
+
+import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
-import "../styles/project.css";
-import Colorizer from "../components/colorizer";
+
 import SummaryBrick from "../components/summaryBrick";
+
 import Background from "../images/Video/background.png";
 import OrigFlow from "../images/Video/original-flow.png";
 import OrigScreens from "../images/Video/original-screens.png";
@@ -15,11 +19,12 @@ import FlowJoin from "../images/Video/flow-join.png";
 const ProjSearch = () => {
   return (
     <div>
+      <title>Michael Watchmaker</title>
       <Colorizer
         hex= '#3295C9'
       />
       <Navigation
-        theme= "white"
+        theme= "light"
       />
       <div className="project-header">
         <h1 className="project-title">Video<br/><span className="company blue-dark">HeyDoctor</span></h1>

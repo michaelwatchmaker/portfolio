@@ -1,20 +1,25 @@
 import * as React from "react";
+
+import "../styles/global.css";
+
 import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
-import "../styles/global.css";
+
+import ArrowRight from "../images/ArrowRight";
+
+import NameScript from "../images/NameScript";
 import BeerPretzel from "../images/beer-pretzel.jpeg";
 import Breakfast from "../images/breakfast.jpeg";
 import DiscBag from "../images/disc-bag.jpeg";
 import Giants from "../images/giants.jpeg";
 import Hike from "../images/hike.jpeg";
 import Sandwich from "../images/sandwich.jpeg";
-import NameScript from "../images/NameScript";
-import ArrowRight from "../images/ArrowRight";
 
 const About = () => {
   return (
     <div>
+        <title>Michael Watchmaker</title>
         <Colorizer
         hex= '#ffffff'
         />

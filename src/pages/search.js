@@ -1,20 +1,25 @@
 import * as React from "react";
+
+import "../styles/project.css";
+
+import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
-import "../styles/project.css";
-import Colorizer from "../components/colorizer";
+
 import SummaryBrick from "../components/summaryBrick";
+
 import SearchDevice from "../images/search-device.png";
 import ResultTypes from "../images/result-types.png";
 
 const ProjSearch = () => {
   return (
     <div>
+      <title>Michael Watchmaker</title>
       <Colorizer
         hex= '#8462E5'
       />
       <Navigation
-        theme= "white"
+        theme= "light"
       />
       <div className="project-header">
         <h1 className="project-title">Search<br/><span className="company purple-dark">GoodRx</span></h1>

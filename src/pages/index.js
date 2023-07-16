@@ -1,25 +1,31 @@
-import { Link } from "gatsby";
 import * as React from "react";
+import { Link } from "gatsby";
+
+import "../styles/global.css";
+
 import Colorizer from "../components/colorizer";
 import Navigation from "../components/nav";
 import Footer from "../components/footer";
-import "../styles/global.css";
+
 import Button from "../components/button";
+import ProjectTile from "../components/projectTile";
+
 import ArrowRight from "../images/ArrowRight";
+
+import TileVideo from "../images/tile-video.png";
+import TileSearch from "../images/tile-search.png";
+import TileSandbox from "../images/tile-sandbox.png";
+
 import CornholeWEBM from "../images/cornhole.webm";
 import CornholeMP4 from "../images/cornhole.mp4";
 import Beer from "../images/beer.jpeg";
 import Baseball from "../images/baseball.jpeg";
 import DiscThrow from "../images/disc-throw.jpeg";
-import "../styles/global.css";
-import ProjectTile from "../components/projectTile";
-import TileVideo from "../images/tile-video.png";
-import TileSearch from "../images/tile-search.png";
-import TileSandbox from "../images/tile-sandbox.png";
 
 const Home = () => {
   return (
     <div>
+      <title>Michael Watchmaker</title>
       <Navigation
         theme="dark"
       />

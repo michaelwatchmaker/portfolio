@@ -394,3 +394,11 @@ img {
   margin: -4px 0;
   fill: var(--color-text-body-alt);
 }
+
+.notFound {
+  background-color: var(--color-base-black);
+  gap: 20px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}

@@ -146,6 +146,11 @@ h4 {
     color: var(--color-text-body-alt) !important;
 }
 
+.text-dark-alt {
+    color: #BBBBC8;
+    opacity: 0.65;
+}
+
 /* LINK */
 
 .link {

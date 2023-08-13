@@ -6,11 +6,11 @@
     --text-header-lg: 3rem;
     --text-header-md: 2.5rem;
     --text-header-sm: 2rem;
-    --text-header-xs: 1.5rem;
+    --text-header-xs: 1.7rem;
 
-    --text-body-xl: 1.5rem;
-    --text-body-lg: 1.25rem;
-    --text-body-md: 1.125rem;
+    --text-body-xl: 1.4rem;
+    --text-body-lg: 1.2rem;
+    --text-body-md: 1.1rem;
     --text-body-sm: 1rem;
     --text-body-xs: 0.875rem;
 
@@ -20,9 +20,10 @@
     --text-height-button: 1.5rem;
 
     /* WEIGHT */
-    --text-weight-regular: 400;
+    --text-weight-regular: 450;
+    --text-weight-medium: 520;
     --text-weight-semibold: 600;
-    --text-weight-bold: 700;
+    --text-weight-bold: 750;
 
 }
 
@@ -38,12 +39,13 @@
 /* TITLE */
 
 h1, h2, h3, h4{
-    font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: var(--color-text-header-dark);
     line-height: var(--text-height-tight);
     width: 100%;
     letter-spacing: -1px;
+    font-weight: var(--text-weight-bold);
 }
 
 h1 {
@@ -99,7 +101,7 @@ h4 {
 }
 
 .header-alt {
-    font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: var(--color-text-header-alt);
 }
@@ -166,6 +168,11 @@ h4 {
 
 .regular {
     font-weight: var(--text-weight-regular);
+    color: inherit;
+}
+
+.medium {
+    font-weight: var(--text-weight-medium);
     color: inherit;
 }
 

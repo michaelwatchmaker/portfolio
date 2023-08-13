@@ -12,9 +12,7 @@ import ProjectTile from "../components/projectTile";
 
 import ArrowRight from "../images/ArrowRight";
 
-import TileVideo from "../images/tile-video.png";
-import TileSearch from "../images/tile-search.png";
-import TileSandbox from "../images/tile-sandbox.png";
+import TilePromo from "../images/tile-promo.png";
 
 import CornholeWEBM from "../images/cornhole.webm";
 import CornholeMP4 from "../images/cornhole.mp4";
@@ -33,33 +31,38 @@ const Home = () => {
         hex= '#ffffff'
       />
       <main>
-          <h1 className="left">Sup, I'm Michael
-            <br/>
-            <span className="header-alt">I discover and solve people problems to drive business outcomes</span>
-          </h1>
           <div className="tile-wrapper">
+            <h1 className="left">Sup, I'm Michael <span className="header-emoji">✌🏼</span>
+              <br/>
+              <span className="header-alt">Product designer based in SF</span>
+            </h1>
+            <Link to="/video" className="tile-promo">
+              <img src={TilePromo} alt="project tile"/>
+              <div className="promo-header">
+                  <p className="body bold" style={{color: '#16435A', opacity: .5}}>FEATURED</p>
+                  <h3 className="promo-header-title">Video: <span style={{color: '#16435A'}}>Maintaining doctor efficiency and reducing wait times</span></h3>
+              </div>
+            </Link>
             <div className="project-tiles">
               <ProjectTile
-                theme="blue"
-                route="/video"
-                title="Video"
-                company="HeyDoctor"
-                image={TileVideo}
+                route="/search"
+                status= "on"
+                caption= "NEW"
+                title="Search: A clarified, data-driven, mobile first update"
               />
               <ProjectTile
-                theme="purple"
-                route="/search"
-                title="Search"
-                company="GoodRx"
-                image={TileSearch}
+                route="/sandbox"
+                status= "on"
+                caption= "NEW"
+                title="Sandbox: A collection of explorations from various projects"
+              />
+              <ProjectTile
+                route="#"
+                status= "off"
+                caption= "COMING SOON"
+                title="Alternatives: Making prescribing affordable medications easy"
               />
             </div>
-            <ProjectTile
-              theme="sandbox"
-              route="/sandbox"
-              title="Sandbox"
-              image={TileSandbox}
-            />
           </div>
           <div className="section-about">
             <div className="section-content">

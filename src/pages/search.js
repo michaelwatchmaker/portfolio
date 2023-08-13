@@ -6,27 +6,27 @@ import Colorizer from "../components/colorizer";
 import NavProject from "../components/nav-project";
 import Footer from "../components/footer";
 
-import Background1 from "../images/search/background-1.png";
-import Background2 from "../images/search/background-2.png";
+import Background1 from "../images/Search/background-1.png";
+import Background2 from "../images/Search/background-2.png";
 
-import ProblemOne1 from "../images/search/prob-1-1.png";
-import ProblemOne2 from "../images/search/prob-1-2.png";
-import ProblemOne3 from "../images/search/prob-1-3.png";
-import ProblemOne4 from "../images/search/prob-1-4.png";
-import ProblemOne5 from "../images/search/prob-1-5.png";
+import ProblemOne1 from "../images/Search/prob-1-1.png";
+import ProblemOne2 from "../images/Search/prob-1-2.png";
+import ProblemOne3 from "../images/Search/prob-1-3.png";
+import ProblemOne4 from "../images/Search/prob-1-4.png";
+import ProblemOne5 from "../images/Search/prob-1-5.png";
 
-import ProblemTwo1 from "../images/search/prob-2-1.png";
-import ProblemTwo2 from "../images/search/prob-2-2.png";
-import ProblemTwo3 from "../images/search/prob-2-3.png";
-import ProblemTwo4 from "../images/search/prob-2-4.png";
+import ProblemTwo1 from "../images/Search/prob-2-1.png";
+import ProblemTwo2 from "../images/Search/prob-2-2.png";
+import ProblemTwo3 from "../images/Search/prob-2-3.png";
+import ProblemTwo4 from "../images/Search/prob-2-4.png";
 
-import ProblemThree1 from "../images/search/prob-3-1.png";
-import ProblemThree2 from "../images/search/prob-3-2.png";
-import ProblemThree3 from "../images/search/prob-3-3.png";
-import ProblemThree4 from "../images/search/prob-3-4.png";
-import ProblemThree5 from "../images/search/prob-3-5.png";
-import ProblemThree6 from "../images/search/prob-3-6.png";
-import ProblemThree7 from "../images/search/prob-3-7.png";
+import ProblemThree1 from "../images/Search/prob-3-1.png";
+import ProblemThree2 from "../images/Search/prob-3-2.png";
+import ProblemThree3 from "../images/Search/prob-3-3.png";
+import ProblemThree4 from "../images/Search/prob-3-4.png";
+import ProblemThree5 from "../images/Search/prob-3-5.png";
+import ProblemThree6 from "../images/Search/prob-3-6.png";
+import ProblemThree7 from "../images/Search/prob-3-7.png";
 
 import FollowUp from "../images/search/follow-up.png";
 

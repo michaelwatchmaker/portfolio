@@ -28,7 +28,7 @@ import ProblemThree5 from "../images/Search/prob-3-5.png";
 import ProblemThree6 from "../images/Search/prob-3-6.png";
 import ProblemThree7 from "../images/Search/prob-3-7.png";
 
-import FollowUp from "../images/search/follow-up.png";
+import FollowUp from "../images/Search/follow-up.png";
 
 
 

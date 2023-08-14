@@ -32,7 +32,7 @@ const Home = () => {
       />
       <main>
           <div className="tile-wrapper">
-            <h1 className="left">Sup, I'm Michael <span className="header-emoji">✌🏼</span>
+            <h1 className="left">Hi, I'm Michael <span className="header-emoji">✌🏼</span>
               <br/>
               <span className="header-alt">Product designer based in SF</span>
             </h1>

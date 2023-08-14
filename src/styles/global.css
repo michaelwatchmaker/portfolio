@@ -159,6 +159,7 @@ img {
   align-self: stretch;
   background-color: transparent;
   padding: 40px;
+  gap: 5px;
 }
 
 .promo-header-title {
@@ -423,4 +424,8 @@ img {
   height: 100vh;
   align-items: center;
   justify-content: center;
+}
+
+ul {
+  margin-left: 15px;
 }

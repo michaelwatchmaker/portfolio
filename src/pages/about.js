@@ -67,6 +67,10 @@ const About = () => {
               <p className="body left">At HeyDoctor I was on the design team for the Electronic Medical Record (EMR). It was a complex platform operating at the center of diagnosis, treatment, and customer support. My team supported 10x growth of visits volume, accumulating to over 2M consultations to date. After that, I led design for a team aimed at improving the visit experience for our patients. We went on to win an <a className="link" href="https://www.digitalhealthhub.org/awards/2020/winners" target="_blank" rel="noreferrer">award</a> for Best Telehealth Company in 2020 🏅.</p>
             </div>
           </div>
+          <div className="text-section">
+            <h4>Links</h4>
+            <p className="body" style={{alignSelf: 'flex-start'}}><a className="link" href="https://drive.google.com/file/d/1de34roIluOb5ffRdNpmCMjn2YcAGnr_W/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>   /   <a className="link" href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">Figma</a>   /   <a className="link" href="https://www.linkedin.com/in/michaelwatchmaker/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+          </div>
         </main>
         <Footer/>
     </div>

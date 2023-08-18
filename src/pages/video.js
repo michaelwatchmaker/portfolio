@@ -6,31 +6,31 @@ import Colorizer from "../components/colorizer";
 import NavProject from "../components/nav-project";
 import Footer from "../components/footer";
 
-import Hero from "../images/Video/hero.png";
+import Hero from "../images/video/hero.png";
 
-import Background from "../images/Video/background.png";
-import OrigFlow from "../images/Video/original-flow.png";
-import OrigScreens from "../images/Video/original-screens.png";
-import OrigEMR from "../images/Video/original-emr.png";
+import Background from "../images/video/background.png";
+import OrigFlow from "../images/video/original-flow.png";
+import OrigScreens from "../images/video/original-screens.png";
+import OrigEMR from "../images/video/original-emr.png";
 
-import FlowVisit from "../images/Video/flow-visit.png";
-import FlowStart from "../images/Video/flow-start.png";
-import FlowJoin from "../images/Video/flow-join.png";
+import FlowVisit from "../images/video/flow-visit.png";
+import FlowStart from "../images/video/flow-start.png";
+import FlowJoin from "../images/video/flow-join.png";
 
-import Visit1 from "../images/Video/visit-1.png";
-import Visit2 from "../images/Video/visit-2.png";
+import Visit1 from "../images/video/visit-1.png";
+import Visit2 from "../images/video/visit-2.png";
 
-import Message1 from "../images/Video/message-1.png";
-import Message2 from "../images/Video/message-2.png";
-import Message3 from "../images/Video/message-3.png";
+import Message1 from "../images/video/message-1.png";
+import Message2 from "../images/video/message-2.png";
+import Message3 from "../images/video/message-3.png";
 
-import Call1 from "../images/Video/call-1.png";
-import Call2 from "../images/Video/call-2.png";
-import Call3 from "../images/Video/call-3.png";
-import Call4 from "../images/Video/call-4.png";
-import Call5 from "../images/Video/call-5.png";
-import Call6 from "../images/Video/call-6.png";
-import Call7 from "../images/Video/call-7.png";
+import Call1 from "../images/video/call-1.png";
+import Call2 from "../images/video/call-2.png";
+import Call3 from "../images/video/call-3.png";
+import Call4 from "../images/video/call-4.png";
+import Call5 from "../images/video/call-5.png";
+import Call6 from "../images/video/call-6.png";
+import Call7 from "../images/video/call-7.png";
 
 
 const ProjSearch = () => {

@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer">
         <div className="contact-wrapper">
             <h2 className="center">Wanna know more? Let’s chat 🤝🏼</h2>
-            <a href="mailto:michaelwatchmaker@outlook.com">
+            <a href="mailto:michaelwatchmaker@icloud.com">
               <Button variant="button dark-primary">Say hi</Button>
             </a>
         </div>

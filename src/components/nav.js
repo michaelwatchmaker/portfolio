@@ -14,7 +14,7 @@ const Navigation = ({ theme }) => {
           <Link to="/about">
             <Button variant={`button ${theme}-ghost`}>About</Button>
           </Link>
-          <a href="mailto:michaelwatchmaker@outlook.com">
+          <a href="mailto:michaelwatchmaker@icloud.com">
             <Button variant={`button ${theme}-primary`}>Say hi 👋🏼</Button>
           </a>
         </div>

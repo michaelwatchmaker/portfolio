@@ -4,31 +4,32 @@ import "../styles/project.css";
 
 import Colorizer from "../components/colorizer";
 import NavProject from "../components/nav-project";
+
 import Footer from "../components/footer";
 
-import Background1 from "../images/Search/background-1.png";
-import Background2 from "../images/Search/background-2.png";
+import Background1 from "../images/search/background-1.png";
+import Background2 from "../images/search/background-2.png";
 
-import ProblemOne1 from "../images/Search/prob-1-1.png";
-import ProblemOne2 from "../images/Search/prob-1-2.png";
-import ProblemOne3 from "../images/Search/prob-1-3.png";
-import ProblemOne4 from "../images/Search/prob-1-4.png";
-import ProblemOne5 from "../images/Search/prob-1-5.png";
+import ProblemOne1 from "../images/search/prob-1-1.png";
+import ProblemOne2 from "../images/search/prob-1-2.png";
+import ProblemOne3 from "../images/search/prob-1-3.png";
+import ProblemOne4 from "../images/search/prob-1-4.png";
+import ProblemOne5 from "../images/search/prob-1-5.png";
 
-import ProblemTwo1 from "../images/Search/prob-2-1.png";
-import ProblemTwo2 from "../images/Search/prob-2-2.png";
-import ProblemTwo3 from "../images/Search/prob-2-3.png";
-import ProblemTwo4 from "../images/Search/prob-2-4.png";
+import ProblemTwo1 from "../images/search/prob-2-1.png";
+import ProblemTwo2 from "../images/search/prob-2-2.png";
+import ProblemTwo3 from "../images/search/prob-2-3.png";
+import ProblemTwo4 from "../images/search/prob-2-4.png";
 
-import ProblemThree1 from "../images/Search/prob-3-1.png";
-import ProblemThree2 from "../images/Search/prob-3-2.png";
-import ProblemThree3 from "../images/Search/prob-3-3.png";
-import ProblemThree4 from "../images/Search/prob-3-4.png";
-import ProblemThree5 from "../images/Search/prob-3-5.png";
-import ProblemThree6 from "../images/Search/prob-3-6.png";
-import ProblemThree7 from "../images/Search/prob-3-7.png";
+import ProblemThree1 from "../images/search/prob-3-1.png";
+import ProblemThree2 from "../images/search/prob-3-2.png";
+import ProblemThree3 from "../images/search/prob-3-3.png";
+import ProblemThree4 from "../images/search/prob-3-4.png";
+import ProblemThree5 from "../images/search/prob-3-5.png";
+import ProblemThree6 from "../images/search/prob-3-6.png";
+import ProblemThree7 from "../images/search/prob-3-7.png";
 
-import FollowUp from "../images/Search/follow-up.png";
+import FollowUp from "../images/search/follow-up.png";
 
 
 
@@ -45,7 +46,7 @@ const ProjSearch = () => {
         project="video"
       />
       <main className="project-wrapper">
-        <div className="text-section hero-section">
+        <div className="text-section">
           <div className="text-section-title"> 
             <h2>Search: A clarified, data-driven, mobile first update</h2>
             <p className="display medium text-alt">GoodRx | Design lead | 2 months</p>
@@ -53,8 +54,6 @@ const ProjSearch = () => {
           <div className="project-image hero-image">
             <img src={ProblemThree7} alt="hero"/>
           </div>
-        </div>
-        <div className="text-section">
           <p className="display medium">Distinguishing result types was difficult, searching on mobile was strenuous, and recommendations were confusing. I systematized result types into digestible list items, constructed a full screen search experience on mobile, and crafted a data-driven approach for surfacing prior search history.</p>
         </div>
         <div className="text-section">
@@ -157,8 +156,8 @@ const ProjSearch = () => {
         <div className="text-section">
           <h4>Outcome</h4>
           <p className="body">15% increase in search result selection after typing just one character (mobile)</p>
-          <p className="body">Increase in coupon usage (increased downstream revenue)</p>
-          <p className="body">Decrease in search dropoff</p>
+          <p className="body">Increase in coupon usage (resulting in additional downstream revenue)</p>
+          <p className="body">Decrease in search drop-off</p>
         </div>
         <div className="text-section">
           <h4>Follow ups</h4>
@@ -167,6 +166,11 @@ const ProjSearch = () => {
             <img src={FollowUp} alt="concept"/>
             <p className="meta text-alt center">Concept for switching between and comparing medications</p>
           </div>
+        </div>
+        <div className="text-section">
+          <h4>Learnings</h4>
+          <p className="body"><span className="bold">It’s one thing to build a great component or pattern, it’s a whole other challenge to get it universally implemented.</span> There's often additional use cases that come up which weren't in the original blueprint. We needed to take some time to work with other teams on understanding some of the decisions and trade offs we made. Also, I learned that despite testing ourselves, other teams might want to come to a conclusion on their own. Roll out timelines were pushed back, which wasn't the end of the world but made things challenging managing stakeholders.</p>
+          <p className="body"><span className="bold">Start with the best possible experience and work back to components with design system partners</span> Having a design system is great, but immediately being confined to it at an early stage can hinder the great ideas. By using components and tokens as aids rather than constraints I was able to make sure the focus was on achieving the goals. When it’s time to begin buttoning things up, I learned that approaching conversations with what decisions I’m set on vs willing to concede makes the conversation more productive for both parties.</p>
         </div>
       </main>
       <Footer/>

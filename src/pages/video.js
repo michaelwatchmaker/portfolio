@@ -33,7 +33,7 @@ import Call6 from "../images/Video/call-6.png";
 import Call7 from "../images/Video/call-7.png";
 
 
-const ProjSearch = () => {
+const ProjVideo = () => {
   return (
     <div>
       <title>Michael Watchmaker</title>
@@ -235,4 +235,4 @@ const ProjSearch = () => {
   )
 }
 
-export default ProjSearch
+export default ProjVideo

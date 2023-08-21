@@ -46,7 +46,7 @@ const ProjSearch = () => {
         project="video"
       />
       <main className="project-wrapper">
-        <div className="text-section">
+        <div className="text-section hero-section">
           <div className="text-section-title"> 
             <h2>Search: A clarified, data-driven, mobile first update</h2>
             <p className="display medium text-alt">GoodRx | Design lead | 2 months</p>
@@ -54,6 +54,8 @@ const ProjSearch = () => {
           <div className="project-image hero-image">
             <img src={ProblemThree7} alt="hero"/>
           </div>
+        </div>
+        <div className="text-section">
           <p className="display medium">Distinguishing result types was difficult, searching on mobile was strenuous, and recommendations were confusing. I systematized result types into digestible list items, constructed a full screen search experience on mobile, and crafted a data-driven approach for surfacing prior search history.</p>
         </div>
         <div className="text-section">
@@ -170,7 +172,7 @@ const ProjSearch = () => {
         <div className="text-section">
           <h4>Learnings</h4>
           <p className="body"><span className="bold">It’s one thing to build a great component or pattern, it’s a whole other challenge to get it universally implemented.</span> There's often additional use cases that come up which weren't in the original blueprint. We needed to take some time to work with other teams on understanding some of the decisions and trade offs we made. Also, I learned that despite testing ourselves, other teams might want to come to a conclusion on their own. Roll out timelines were pushed back, which wasn't the end of the world but made things challenging managing stakeholders.</p>
-          <p className="body"><span className="bold">Start with the best possible experience and work back to components with design system partners</span> Having a design system is great, but immediately being confined to it at an early stage can hinder the great ideas. By using components and tokens as aids rather than constraints I was able to make sure the focus was on achieving the goals. When it’s time to begin buttoning things up, I learned that approaching conversations with what decisions I’m set on vs willing to concede makes the conversation more productive for both parties.</p>
+          <p className="body"><span className="bold">Start with the best possible experience and work back to components with design system partners.</span> Having a design system is great, but immediately being confined to it at an early stage can hinder the great ideas. By using components and tokens as aids rather than constraints I was able to make sure the focus was on achieving the goals. When it’s time to begin buttoning things up, I learned that approaching conversations with what decisions I’m set on vs willing to concede makes the conversation more productive for both parties.</p>
         </div>
       </main>
       <Footer/>

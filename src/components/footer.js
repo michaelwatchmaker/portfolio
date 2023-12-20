@@ -1,6 +1,7 @@
 import React from "react";
-import Button from "./button";
+
 import "../styles/footer.css";
+import "../styles/global.css";
 
 const Footer = () => {
 
@@ -8,15 +9,19 @@ const Footer = () => {
 
     return (
       <div className="footer">
-        <div className="contact-wrapper">
-            <h2 className="center">Wanna know more? Let’s chat 🤝🏼</h2>
-            <a href="mailto:michaelwatchmaker@icloud.com">
-              <Button variant="button dark-primary">Say hi</Button>
-            </a>
-        </div>
         <div className="bottom-wrapper">
-            <p className="footer-name">Michael Watchmaker {year}</p>
-            <p className="footer-links"><a className="link" href="https://drive.google.com/file/d/1de34roIluOb5ffRdNpmCMjn2YcAGnr_W/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>   /   <a className="link" href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">Figma</a>   /   <a className="link" href="https://www.linkedin.com/in/michaelwatchmaker/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+            <p className="meta regular text-alt footer-name">Michael Watchmaker {year}</p>
+            <div className="footer-links">
+              <a href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">
+                <p className="meta medium link-sm height-md">Figma</p>
+              </a>
+              <a href="https://drive.google.com/file/d/1de34roIluOb5ffRdNpmCMjn2YcAGnr_W/view?usp=sharing" target="_blank" rel="noreferrer">
+                <p className="meta medium link-sm height-md">Resume</p>
+              </a>
+              <a href="https://www.linkedin.com/in/michaelwatchmaker/" target="_blank" rel="noreferrer">
+                <p className="meta medium link-sm height-md">LinkedIn</p>
+              </a>
+            </div>
         </div>
       </div>
     );

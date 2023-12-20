@@ -1,22 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Button from "../components/button"
-import Colorizer from "../components/colorizer"
+
+
 
 
 const NotFoundPage = () => {
   return (
-    <main className="notFound">
-      <Colorizer
-        hex= '#1c1c1e'
-      />
+    <main className="notFound animated">
       <title>Michael Watchmaker</title>
-      <h1 className="center">🔭</h1>
-      <p className="body center text-dark-alt">We searched the galaxy, but couldn't find this page.</p>
-      <Link to="/">
-        <Button variant="button white-alt">
-          Back home
-        </Button>
+      <h1 className="center big-emoji">👀</h1>
+      <h1 className="center">404 – nothing to see here.</h1>
+      <Link to="/" style={{width: 'fit-content'}}>
+          <p className="body medium link-md">Go home</p>
       </Link>
     </main>
   )

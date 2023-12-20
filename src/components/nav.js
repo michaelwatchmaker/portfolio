@@ -1,21 +1,22 @@
 import React from "react";
 import { Link } from "gatsby";
-import Button from "./button";
-import Logo from "../images/Logo";
 import "../styles/nav.css";
 
-const Navigation = ({ theme }) => {
+import Memoji from "../images/memoji.png";
+
+
+const Navigation = () => {
     return (
       <nav>
-        <Link to="/" className={`${theme}-logo`}>
-            <Logo/>
+        <Link to="/" className='logo'>
+          <img src={Memoji}/>
         </Link>
         <div className="nav-links">
           <Link to="/about">
-            <Button variant={`button ${theme}-ghost`}>About</Button>
+            <p className="meta medium link-sm height-md">About</p>
           </Link>
           <a href="mailto:michaelwatchmaker@icloud.com">
-            <Button variant={`button ${theme}-primary`}>Say hi 👋🏼</Button>
+            <p className="meta medium link-sm height-md">Say hi 📨</p>
           </a>
         </div>
       </nav>

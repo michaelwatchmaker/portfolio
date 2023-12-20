@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ArrowRight({
   size = 24,
-  color = "#1c1c1e"
+  color = "#fff"
 }) {
   return (
     <svg

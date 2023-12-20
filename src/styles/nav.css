@@ -38,6 +38,11 @@ nav {
     scale: 1.075;
 }
 
+.logo:active , .logo:focus {
+    background: var(--color-grey-1);
+    scale: 1;
+}
+
 @keyframes fade-in {
     0% {
         opacity: 0;

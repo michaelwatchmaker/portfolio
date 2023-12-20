@@ -26,6 +26,7 @@ body {
   margin: auto;
   scroll-behavior: smooth;
   transition: none;
+  overflow-x: hidden;
 }
 
 main {
@@ -61,7 +62,7 @@ img {
 
 @media screen and (max-width: 700px) {
   .text-section {
-    gap: 20px;
+    gap: 40px;
   }
 }
 

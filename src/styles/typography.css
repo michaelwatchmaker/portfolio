@@ -127,7 +127,7 @@ h2 {
 
 .link-sm:hover {
     cursor: pointer;
-    border-color: var(--color-text-base-black);
+    border-color: var(--color-base-black);
 }
 
 .link-md {
@@ -139,7 +139,7 @@ h2 {
 
 .link-md:hover {
     cursor: pointer;
-    border-color: var(--color-text-base-black);
+    border-color: var(--color-base-black);
 }
 
 .link-lg {
@@ -151,7 +151,11 @@ h2 {
 
 .link-lg:hover {
     cursor: pointer;
-    border-color: var(--color-text-base-black);
+    border-color: var(--color-base-black);
+}
+
+.link-sm:focus , .link-md:focus, .link-lg:focus , .link-sm:active , .link-md:active, .link-lg:active {
+    border-bottom-color: var(--color-grey-2);
 }
 
 @media screen and (max-width: 700px) {

@@ -54,8 +54,8 @@ const About = () => {
             </div>
           </div>
           <div className="text-section">
-            <p className="display left regular height-lg">I've spent a while building healthcare products that make it easier for people to access and afford treatments. While doing so, I developed an understanding of how to build intuitive and profitable experiences for the masses. I believe that determining what get's build is just as important as how it's built.</p>
-            <p className="display left regular height-lg">Away from work, I enjoy spending time tinkering with side projects, traveling, and going on walks. I listen to a lot of dad rock on spotify, and watch Chelsea FC on the weekends.</p>
+            <p className="display left regular height-lg">I've spent a while building healthcare products that make it easier for people to access and afford treatments. While doing so, I developed an understanding of how to build intuitive and profitable experiences for the masses. I believe that determining what get's built is just as important as how it's built.</p>
+            <p className="display left regular height-lg">Away from work, I enjoy spending time tinkering with side projects, traveling, and going on walks. I listen to a lot of dad rock on Spotify, and watch Chelsea FC on the weekends.</p>
             <p className="display left regular height-lg">If you'd like to chat about work or sports, say 👋🏼&nbsp;<a className="link-md height-sm" href="mailto:michaelwatchmaker@icloud.com">hello</a>.</p>
           </div>
           <div className="split-section">

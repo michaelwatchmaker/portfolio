@@ -26,7 +26,6 @@ body {
   margin: auto;
   scroll-behavior: smooth;
   transition: none;
-  overflow-x: hidden;
 }
 
 main {
@@ -38,6 +37,7 @@ main {
   gap: 18vh;
   padding: 18vh 20px;
   background-color: var(--color-base-white);
+  overflow-x: hidden;
 }
 
 main > * {

@@ -14,9 +14,12 @@ import Mobile from "../images/Map/mobile.jpg";
 import Headers from "../images/Map/headers.jpg";
 import MapScreens from "../images/Map/map-screens.jpg";
 import List from "../images/Map/list.jpg";
+import MapBgMP4 from "../images/Map/map-bg.mp4";
+import MapBgWEBM from "../images/Map/map-bg.webm";
 
 import DrugPage from "../images/Map/drug-page.jpg";
-import MiniMap from "../images/Map/mini-map.jpg";
+import MiniMP4 from "../images/Map/mini-map.mp4";
+import MiniWEBM from "../images/Map/mini-map.webm";
 
 
 
@@ -28,24 +31,11 @@ const ProjMap = () => {
         <Navigation/>
         <main>
           <div className="project-section">
-            <div className="header-section animated">
+            <div className="project-header animated">
               <h1 className="left header-alt">Pharmacy Map</h1>
-              <div className="project-detail-wrapper">
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Company</p>
-                  <p className="body regular height-lg">GoodRx</p>
-                </div>
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Role</p>
-                  <p className="body regular height-lg">Design Lead</p>
-                </div>
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Timeline</p>
-                  <p className="body regular height-lg">1.5 months</p>
-                </div>
-              </div>
+              <p className="display left height-sm text-alt">GoodRx</p>
             </div>
-            <div className="project-image hero-map animated-delay">
+            <div className="project-image hero-image hero-map animated-delay">
               <img src={HeroImage} alt="hero"/>
             </div>
           </div>
@@ -90,6 +80,12 @@ const ProjMap = () => {
             <div className="project-image">
               <img src={List} alt="list of pharmacies"/>
             </div>
+            <div className="project-image">
+              <video playsInline autoPlay loop muted>
+                <source type="video/webm" src={MapBgWEBM}></source>
+                <source type="video/mp4" src={MapBgMP4}></source>
+              </video>
+            </div>
           </div>
           <div className="project-section">
             <div className="split-section">
@@ -105,7 +101,10 @@ const ProjMap = () => {
               <img src={DrugPage} alt="drug page"/>
             </div>
             <div className="project-image">
-              <img src={MiniMap} alt="mini map"/>
+              <video playsInline autoPlay loop muted>
+                <source type="video/webm" src={MiniWEBM}></source>
+                <source type="video/mp4" src={MiniMP4}></source>
+              </video>
             </div>
           </div>
         </main>

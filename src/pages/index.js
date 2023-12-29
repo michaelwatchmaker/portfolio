@@ -3,10 +3,10 @@ import { Link } from "gatsby";
 
 import "../styles/global.css";
 
+import Navigation from "../components/nav";
 import Footer from "../components/footer";
 
 import ProjectTile from "../components/projectTile";
-import Navigation from "../components/nav";
 
 import TileVideo from "../images/tile-video.jpg";
 import TileSearch from "../images/tile-search.jpg";
@@ -28,9 +28,9 @@ const Home = () => {
         </div>
           <div className="tile-wrapper animated-delay">
             <ProjectTile
-              name="video"
-              route="/video"
-              img={TileVideo}
+              name="map"
+              route="/map"
+              img={TileMap}
             />
             <ProjectTile
               name="search"
@@ -38,9 +38,9 @@ const Home = () => {
               img={TileSearch}
             />
             <ProjectTile
-              name="map"
-              route="/map"
-              img={TileMap}
+              name="video"
+              route="/video"
+              img={TileVideo}
             />
           </div>
           <div className="header-section">

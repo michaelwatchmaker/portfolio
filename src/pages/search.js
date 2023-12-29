@@ -12,6 +12,7 @@ import Result1 from "../images/Search/result-1.jpg";
 import Mobile1 from "../images/Search/mobile-1.jpg";
 import Flow1 from "../images/Search/flow-1.jpg";
 
+
 const ProjSearch = () => {
   return (
     <div>
@@ -19,24 +20,11 @@ const ProjSearch = () => {
         <Navigation/>
         <main>
           <div className="project-section">
-            <div className="header-section animated">
+            <div className="project-header animated">
               <h1 className="left header-alt">Search</h1>
-              <div className="project-detail-wrapper">
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Company</p>
-                  <p className="body regular height-lg">GoodRx</p>
-                </div>
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Role</p>
-                  <p className="body regular height-lg">Design Lead</p>
-                </div>
-                <div className="project-detail">
-                  <p className="meta medium text-alt">Timeline</p>
-                  <p className="body regular height-lg">2 months</p>
-                </div>
-              </div>
+              <p className="display left height-sm text-alt">GoodRx</p>
             </div>
-            <div className="project-image hero-search animated-delay">
+            <div className="project-image hero-image hero-search animated-delay">
               <img src={HeroImage} alt="hero"/>
             </div>
           </div>
@@ -65,7 +53,7 @@ const ProjSearch = () => {
               </div>
               <div className="split-section-right">
                 <p className="body regular height-lg">Doctors frequently have a lot to do with not enough time. The existing experience on mobile made search cumbersome by only displaying 2 results above the keyboard at a time. This forced users to type more characters before getting their result to the top.</p>
-                <p className="body regular height-lg">The new experience provides spacious tap targets and real estate. Additionally, I chose to use a full screen sheet to limit distractions underneath the results.</p>
+                <p className="body regular height-lg">The new experience provides spacious tap targets and real estate. Additionally, a full screen overlay helped limit potential distractions underneath the results.</p>
               </div>
             </div>
             <div className="project-image">
@@ -79,7 +67,7 @@ const ProjSearch = () => {
               </div>
               <div className="split-section-right">
                 <p className="body regular height-lg">For power users, any ability for tools to expedite repetitive tasks is invaluable. That remains true with searching on our site.</p>
-                <p className="body regular height-lg">To limit extra labor, I took a data-first approach to what content was surfaced. The most searched medications would appear on the home page one tap away. If those medications aren’t applicable, our next best guess was recent searches. This allowed us to reduce the amount of effort needed for doctors to get to their destination.</p>
+                <p className="body regular height-lg">To limit extra labor, we took a data-first approach to what content was surfaced. The most searched medications would appear on the home page one tap away. If those medications aren’t applicable, our next best guess was recent searches. This allowed us to reduce the amount of effort needed for doctors to get to their destination.</p>
               </div>
             </div>
             <div className="project-image">

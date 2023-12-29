@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 const ProjectTile = (props) => {
     return (
         <Link to={props.route} className={`project-tile hero-${props.name}`}>
-            <img src={props.img}/>
+            <img src={props.img} alt="project"/>
         </Link>
     );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import "../styles/footer.css";
 import "../styles/global.css";
@@ -10,7 +11,9 @@ const Footer = () => {
     return (
       <div className="footer">
         <div className="bottom-wrapper">
-            <p className="meta regular text-alt footer-name">Michael Watchmaker {year}</p>
+            <Link to="/">
+              <p className="meta regular text-alt footer-name">Michael Watchmaker {year}</p>
+            </Link>
             <div className="footer-links">
               <a href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">
                 <p className="meta medium link-sm height-md">Figma</p>

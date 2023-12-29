@@ -2,14 +2,16 @@
 @import "./color.css";
 
 :root {
+  --max-width: 1800px;
+  --text-max: 1200px;
+
   --radius-sm: 5px;
   --radius-md: 10px;
   --radius-lg: 20px;
   --radius-xl: 40px;
   --radius-full: 999px;
+
   --transition: 250ms;
-  --max-width: 1800px;
-  --text-max: 1200px;
 }
 
 * {
@@ -80,7 +82,7 @@ img {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .split-section-right {
@@ -145,7 +147,7 @@ img {
 .animated {
   animation-name: slide-up;
   animation-duration: 600ms;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   animation-delay: 100ms;
   margin-top: 2%;
@@ -155,9 +157,9 @@ img {
 .animated-delay {
   animation-name: slide-up;
   animation-duration: 600ms;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  animation-delay: 500ms;
+  animation-delay: 400ms;
   margin-top: 0;
   opacity: 0;
 }
@@ -166,6 +168,10 @@ img {
   0% {
     margin-top: 2.5vh;
     opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
   }
 
   100% {
@@ -200,13 +206,16 @@ img {
   }
 }
 
-.project-tile:hover {
-  filter: brightness(0.9);
-  border-radius: var(--radius-md);
-}
+@media (hover: hover) {
 
-.project-tile:hover img{
-  scale: 1.03;
+  .project-tile:hover {
+    filter: brightness(0.9);
+    border-radius: var(--radius-md);
+  }
+  
+  .project-tile:hover img{
+    scale: 1.03;
+  }
 }
 
 .project-tile img {

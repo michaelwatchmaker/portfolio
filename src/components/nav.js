@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+
 import "../styles/nav.css";
+import "../styles/global.css";
 
 import Memoji from "../images/memoji.png";
 
@@ -9,7 +11,7 @@ const Navigation = () => {
     return (
       <nav>
         <Link to="/" className='logo'>
-          <img src={Memoji}/>
+          <img src={Memoji} alt="memoji"/>
         </Link>
         <div className="nav-links">
           <Link to="/about">

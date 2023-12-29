@@ -125,9 +125,12 @@ h2 {
     width: fit-content;
 }
 
-.link-sm:hover {
-    cursor: pointer;
-    border-color: var(--color-base-black);
+@media (hover: hover) {
+
+    .link-sm:hover {
+        cursor: pointer;
+        border-color: var(--color-base-black);
+    }
 }
 
 .link-md {
@@ -137,9 +140,12 @@ h2 {
     width: fit-content;
 }
 
-.link-md:hover {
-    cursor: pointer;
-    border-color: var(--color-base-black);
+@media (hover: hover) {
+
+    .link-md:hover {
+        cursor: pointer;
+        border-color: var(--color-base-black);
+    }
 }
 
 .link-lg {
@@ -149,9 +155,12 @@ h2 {
     width: fit-content;
 }
 
-.link-lg:hover {
-    cursor: pointer;
-    border-color: var(--color-base-black);
+@media (hover: hover) {
+
+    .link-lg:hover {
+        cursor: pointer;
+        border-color: var(--color-base-black);
+    }
 }
 
 .link-sm:focus , .link-md:focus, .link-lg:focus , .link-sm:active , .link-md:active, .link-lg:active {

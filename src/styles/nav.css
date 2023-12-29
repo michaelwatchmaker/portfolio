@@ -8,12 +8,12 @@ nav {
     margin: auto;
     background-color: transparent;
 
-    animation-name: fade-in;
+    /* animation-name: fade-in;
     animation-duration: 600ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 500ms;
-    opacity: 0;
+    opacity: 0; */
 }
 
 .nav-links {
@@ -33,14 +33,12 @@ nav {
     width: 100%;
 }
 
-.logo:hover {
-    background: var(--color-grey-2);
-    scale: 1.075;
-}
+@media (hover: hover) {
 
-.logo:active , .logo:focus {
-    background: var(--color-grey-1);
-    scale: 1;
+    .logo:hover {
+        background: var(--color-grey-2);
+        scale: 1.075;
+    }
 }
 
 @keyframes fade-in {

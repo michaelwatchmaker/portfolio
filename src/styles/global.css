@@ -150,24 +150,22 @@ img {
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   animation-delay: 100ms;
-  margin-top: 2%;
+  margin-top: 2.5vh;
   opacity: 0;
 }
 
 .animated-delay {
   animation-name: slide-up;
-  animation-duration: 600ms;
+  animation-duration: 300ms;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  animation-delay: 400ms;
-  margin-top: 0;
+  animation-delay: 300ms;
+  margin-top: 1.25vh;
   opacity: 0;
 }
 
 @keyframes slide-up {
   0% {
-    margin-top: 2.5vh;
-    opacity: 0;
   }
 
   75% {

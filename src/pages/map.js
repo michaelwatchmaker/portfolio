@@ -40,7 +40,7 @@ const ProjMap = () => {
             </div>
           </div>
           <div className="text-section">
-            <p className="display left regular height-lg">GoodRx is a resource that helps uninsured or underinsured patients save on their prescriptions through coupons. I was the design lead on a new professional mode of the website, Provider Mode, aimed at helping doctors find savings for their patients.</p>
+            <p className="display left regular height-lg">GoodRx is a resource that helps uninsured or underinsured patients save on their prescriptions by providing coupons at thousands of pharmacies. I was the design lead on a new professional mode of the website, Provider Mode, aimed at helping doctors find savings for their patients.</p>
             <p className="display left regular height-lg">I led research on understanding prescription decision making, then developed a solution to help unify affordability and e-prescribing workflows to reduce medication/pharmacy changes.</p>
           </div>
           <div className="project-section">
@@ -49,7 +49,7 @@ const ProjMap = () => {
                 <h2>Reframing the product flow for prescribers</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">The core product experience involves searching for a drug, selecting a pharmacy, and getting a coupon. Although this system worked well for doctors, it wasn’t the most straightforward for doctors who were still deciding what to prescribe and where to send it.</p>
+                <p className="body regular height-lg">The core product experience involves searching for a drug, selecting a pharmacy, and getting a coupon. Although this system worked well for patients, it wasn’t the most straightforward for doctors who were still deciding what to prescribe and where to send it.</p>
                 <p className="body regular height-lg">I reframed the questions we ask users in our product to ones with a doctors lens. Doing this allowed the team to look at the current experience from a new angle to identify new opportunities for adjustment.</p>
               </div>
             </div>
@@ -93,8 +93,8 @@ const ProjMap = () => {
                 <h2>Identifying additional product entry points</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">During testing we noticed not all doctors clicked on a pharmacy, but could get the pricing information they needed by scanning. How might we help doctors understand locations nearby from the drug page?</p>
-                <p className="body regular height-lg">This led to exploring integrations of locations into our pharmacy table. To scale, I developed a mix of map backgrounds to represent a map with the pharmacy logo acting as the pin. The goal of this direction was to strike the balance of familiarity and new functionality let users discover naturally.</p>
+                <p className="body regular height-lg">During research we noticed not all doctors clicked on a pharmacy, but could get the pricing information they needed by scanning.</p>
+                <p className="body regular height-lg">This triggered explorations of integrating locations into our table of prices. To scale, I developed a mix of map backgrounds to represent a map with the pharmacy logo acting as the pin. The goal of this direction was to strike the balance of familiarity and new functionality let users discover naturally.</p>
               </div>
             </div>
             <div className="project-image">

@@ -29,8 +29,8 @@ const ProjSearch = () => {
             </div>
           </div>
           <div className="text-section">
-            <p className="display left regular height-lg">GoodRx is a resource that helps uninsured or underinsured patients save on their prescriptions through coupons. I was the design lead on a new professional mode of the website, Provider Mode, aimed at helping doctors find savings for their patients.</p>
-            <p className="display left regular height-lg">While working on the home page, one of the primary goals was assisting a doctor with performing a search. The existing search experience was confusing, and difficult to use on mobile devices.</p>
+            <p className="display left regular height-lg">GoodRx is a resource that helps uninsured or underinsured patients save on their prescriptions by providing coupons at thousands of pharmacies. I was the design lead on a new professional mode of the website, Provider Mode, aimed at helping doctors find savings for their patients.</p>
+            <p className="display left regular height-lg">While working on the home page, one of the primary goals was assisting a doctor with performing a search. However, the existing search experience was confusing and difficult to use on mobile devices.</p>
           </div>
           <div className="project-section">
             <div className="split-section">
@@ -52,8 +52,8 @@ const ProjSearch = () => {
                 <h2>Crafting a new mobile experience</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">Doctors frequently have a lot to do with not enough time. The existing experience on mobile made search cumbersome by only displaying 2 results above the keyboard at a time. This forced users to type more characters before getting their result to the top.</p>
-                <p className="body regular height-lg">The new experience provides spacious tap targets and real estate. Additionally, a full screen overlay helped limit potential distractions underneath the results.</p>
+                <p className="body regular height-lg">Doctors frequently have a lot to do with not enough time. The existing mobile search experience was cumbersome because it only displaying 2 results above the keyboard at a time. This forced users to type more characters before the correct result was in view.</p>
+                <p className="body regular height-lg">The new experience provideed spacious tap targets and real estate. Additionally, the full screen overlay helped limit potential distractions underneath the results.</p>
               </div>
             </div>
             <div className="project-image">
@@ -67,7 +67,7 @@ const ProjSearch = () => {
               </div>
               <div className="split-section-right">
                 <p className="body regular height-lg">For power users, any ability for tools to expedite repetitive tasks is invaluable. That remains true with searching on our site.</p>
-                <p className="body regular height-lg">To limit extra labor, we took a data-first approach to what content was surfaced. The most searched medications would appear on the home page one tap away. If those medications aren’t applicable, our next best guess was recent searches. This allowed us to reduce the amount of effort needed for doctors to get to their destination.</p>
+                <p className="body regular height-lg">To limit extra labor, we took a data-first approach to what content was surfaced. The most searched medications would appear on the home page one tap away. This allowed us to reduce the amount of effort needed for doctors to get to their destination.</p>
               </div>
             </div>
             <div className="project-image">

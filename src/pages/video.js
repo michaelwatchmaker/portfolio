@@ -35,7 +35,7 @@ const ProjVideo = () => {
           </div>
           <div className="text-section">
             <p className="display left regular height-lg">HeyDoctor functions as a virtual urgent care. Patients select a condition they have, answer a few questions, and are connected to a doctor. In telehealth, different states require different modes of communication when connecting with a doctor virtually. I was the design lead for the Visit Experience team that sought to make interactions between doctors and patients frictionless.</p>
-            <p className="display left regular height-lg">During 2020 the business was keen on expanding coverage to all 50 states and investing heavily in marketing. The primary risk we faced was a low conversion rate in states that required video. I captured insights explaining why video calls in particular were often unsuccessful, then developed a new experience to connect patients to a doctor over video with minimal waiting.</p>
+            <p className="display left regular height-lg">During 2020 the business was keen on expanding coverage to all 50 states. The primary risk we faced was low conversion rates in states that required video. I captured insights explaining why video calls in particular were often unsuccessful, then developed a new experience to connect patients to a doctor over video with minimal waiting.</p>
           </div>
           <div className="project-section">
             <div className="project-image">

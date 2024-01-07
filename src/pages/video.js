@@ -60,6 +60,10 @@ const ProjVideo = () => {
               </video>
             </div>
           </div>
+          <div className="text-section content-block">
+            <p className="body left medium height-sm text-alt">Results</p>
+            <p className="display left regular height-lg">After launch, visit completion for video states rose from 20% to 38%. This work helped the business comfortably expand to treat patients in all 50 states in the following months.</p>
+          </div>
         </main>
       <Footer/>
     </div>

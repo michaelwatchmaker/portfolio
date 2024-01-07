@@ -249,14 +249,14 @@ img {
   width: 100%;
   object-fit: cover;
   border-radius: var(--radius-lg);
-  background: var(--color-grey-2);
+  background: var(--color-grey-1);
 }
 
 .about-images-section video {
   width: 100%;
   object-fit: cover;
   border-radius: var(--radius-lg);
-  background: var(--color-grey-2);
+  background: var(--color-grey-1);
 }
 
 .image-tall {

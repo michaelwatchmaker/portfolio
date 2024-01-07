@@ -74,6 +74,10 @@ const ProjSearch = () => {
               <img src={Flow1} alt="mobile"/>
             </div>
           </div>
+          <div className="text-section content-block">
+            <p className="body left medium height-sm text-alt">Results</p>
+            <p className="display left regular height-lg">Upon release, we noticed fewer characters needed to be typed before finding the correct result. Additionally, this update increased usage of our coupons down stream.</p>
+          </div>
         </main>
       <Footer/>
     </div>

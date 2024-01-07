@@ -46,7 +46,7 @@ const Home = () => {
           <div className="header-section">
             <h1 className="left header-alt">When I’m not at my desk, I enjoy <span style={{color: '#C29238'}}>🍺&nbsp;craft beer</span> <span style={{color: '#3287CC'}}>🥏&nbsp;disc golf</span>  <span style={{color: '#E4444E'}}>🚗&nbsp;Rocket League</span>  <span style={{color: '#C2B08D'}}>🍜&nbsp;noodles</span> and <span style={{color: '#6D6D76'}}>⚽️&nbsp;soccer</span>.</h1>
             <Link to="/about" style={{width: 'fit-content'}}>
-              <p className="body medium link-md">About</p>
+              <p className="body medium link-md">About me</p>
             </Link>
           </div>
         </main>

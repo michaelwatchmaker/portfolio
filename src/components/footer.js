@@ -9,7 +9,7 @@ const Footer = () => {
     var year = new Date().getFullYear();
 
     return (
-      <div className="footer">
+      <footer>
         <div className="bottom-wrapper">
             <Link to="/">
               <p className="meta regular text-alt footer-name">Michael Watchmaker {year}</p>
@@ -26,7 +26,7 @@ const Footer = () => {
               </a>
             </div>
         </div>
-      </div>
+      </footer>
     );
   };
 

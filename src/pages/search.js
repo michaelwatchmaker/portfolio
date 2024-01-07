@@ -39,7 +39,7 @@ const ProjSearch = () => {
               </div>
               <div className="split-section-right">
                 <p className="body regular height-lg">When a user searches GoodRx they can find medications, drug classes, or conditions. The existing experience provided similar visual treatment to all results leading to misclicks and confusion.</p>
-                <p className="body regular height-lg">To fix this, I developed a system to help users better distinguish result types. By providing visual references via icons we were able to provide an anchor when scanning. For conditions and drug classes, we wanted to provide extra context to where they led to since medications were by far the most used. This work also helped other teams working on drug classes and conditions to gain new visitors through a more natural discovery path.</p>
+                <p className="body regular height-lg">To fix this, I developed a system to help users better distinguish result types. By providing visual references via icons we were able to provide an anchor when scanning. This change also helped other teams working on drug classes and conditions gain new visitors through a more natural discovery path.</p>
               </div>
             </div>
             <div className="project-image">
@@ -53,7 +53,7 @@ const ProjSearch = () => {
               </div>
               <div className="split-section-right">
                 <p className="body regular height-lg">Doctors frequently have a lot to do with not enough time. The existing mobile search experience was cumbersome because it only displaying 2 results above the keyboard at a time. This forced users to type more characters before the correct result was in view.</p>
-                <p className="body regular height-lg">The new experience provideed spacious tap targets and real estate. Additionally, the full screen overlay helped limit potential distractions underneath the results.</p>
+                <p className="body regular height-lg">The new experience provided spacious tap targets and real estate. Additionally, the full screen overlay helped limit potential distractions underneath the results.</p>
               </div>
             </div>
             <div className="project-image">
@@ -66,8 +66,8 @@ const ProjSearch = () => {
                 <h2>Developing flows for efficiency</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">For power users, any ability for tools to expedite repetitive tasks is invaluable. That remains true with searching on our site.</p>
-                <p className="body regular height-lg">To limit extra labor, we took a data-first approach to what content was surfaced. The most searched medications would appear on the home page one tap away. This allowed us to reduce the amount of effort needed for doctors to get to their destination.</p>
+                <p className="body regular height-lg">For power users, any ability for tools to expedite repetitive tasks is invaluable. Although we made updates to search to make it easier to use, the best experience for getting to the same place over and over is not searching at all.</p>
+                <p className="body regular height-lg">To limit extra labor, we took a data-first approach to what content was surfaced. To begin, the users most searched medications would appear on the home page one tap away.</p>
               </div>
             </div>
             <div className="project-image">

@@ -63,9 +63,9 @@ const ProjMap = () => {
                 <h2>Helping doctors find a location</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">Often times people coming to our site discover their “go-to” pharmacy isn’t the cheapest option. This means the EMR system the doctor uses to prescribe likely won’t have the address of the pharmacy already on file, and doctor typically won’t know the patient’s area well enough to choose a specific location for them.</p>
-                <p className="body regular height-lg">Once a doctor selects a pharmacy, we had an opportunity to help them find a location for their patient — allowing us to transition them naturally from finding a price on our site, back to the EMR to prescribe.</p>
-                <p className="body regular height-lg">The end result was an adapted coupon page to act more as a chain storefront that showed locations nearby as well as the coupon. Our proxy metric of success was when a doctor copied the address of a store to their clipboard.</p>
+                <p className="body regular height-lg">Often times people coming to our site discover their “go-to” pharmacy isn’t the cheapest option. This means the EMR system the doctor uses to prescribe likely won’t have the address of the pharmacy already on file. Additionally, the doctor won’t always know the patient’s area well enough to choose a specific location for them.</p>
+                <p className="body regular height-lg">Once a doctor selected a pharmacy, we had an opportunity to help them find a location for their patient — allowing us to transition them naturally from finding a price on our site, back to their EMR to prescribe.</p>
+                <p className="body regular height-lg">We netted out with a page that acted more as a chain storefront which showed locations nearby as well as the coupon. Our proxy metric of success was doctors copying the address of a store to their clipboard.</p>
               </div>
             </div>
             <div className="project-image">
@@ -93,8 +93,8 @@ const ProjMap = () => {
                 <h2>Identifying additional product entry points</h2>
               </div>
               <div className="split-section-right">
-                <p className="body regular height-lg">During research we noticed not all doctors clicked on a pharmacy, but could get the pricing information they needed by scanning.</p>
-                <p className="body regular height-lg">This triggered explorations of integrating locations into our table of prices. To scale, I developed a mix of map backgrounds to represent a map with the pharmacy logo acting as the pin. The goal of this direction was to strike the balance of familiarity and new functionality let users discover naturally.</p>
+                <p className="body regular height-lg">During research we noticed not all doctors clicked on a pharmacy, but rather got the pricing information they needed just by scanning.</p>
+                <p className="body regular height-lg">This sparked explorations of integrating locations into our table of prices. I developed a mix of backgrounds to represent a map with the pharmacy logo acting as the pin. The goal of this direction was to strike the balance of familiarity and new functionality let users discover naturally.</p>
               </div>
             </div>
             <div className="project-image">

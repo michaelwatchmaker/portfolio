@@ -86,6 +86,25 @@ const About = () => {
           </div>
           <div className="split-section">
             <div className="split-section-left">
+              <h2>Awards</h2>
+            </div>
+            <div className="split-section-right">
+              <div className="content-block">
+                <p className="body left semibold height-md">Best Digital Solution, Silver</p>
+                <p className="body left height-lg text-alt">PM360 Trailblazer Awards, 2023</p>
+              </div>
+              <div className="content-block">
+                <p className="body left semibold height-md">Best Telehealth Company</p>
+                <p className="body left height-lg text-alt">UCSF Digital Health Awards, 2020</p>
+              </div>
+              <div className="content-block">
+                <p className="body left semibold height-md">Stockd, 3rd place</p>
+                <p className="body left height-lg text-alt">Miami University Startup Weekend, 2018</p>
+              </div>
+            </div>
+          </div>
+          <div className="split-section">
+            <div className="split-section-left">
               <h2>In the community</h2>
               <p className="body left regular height-md text-alt">Follow me on&nbsp;
                 <a className="link-md" href="https://www.figma.com/@watchmaker" target="_blank" rel="noreferrer">Figma</a>
@@ -93,11 +112,11 @@ const About = () => {
             </div>
             <div className="split-section-right">
               <div className="content-block">
-                <a className="body left semibold link-md height-md" href="https://www.figma.com/community/file/1238382497451166577/skeleton-kit" target="_blank" rel="noreferrer">Skeleton Kit</a>
+                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1238382497451166577/skeleton-kit" target="_blank" rel="noreferrer">Skeleton Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;1.2k</span></p>
                 <p className="body left height-lg">Flexible skeleton loading components for building rich prototype experiences.</p>
               </div>
               <div className="content-block">
-              <a className="body left semibold link-md height-md" href="https://www.figma.com/community/file/1243277831182040724/iphone-kit" target="_blank" rel="noreferrer">iPhone Kit</a>
+                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1243277831182040724/iphone-kit" target="_blank" rel="noreferrer">iPhone Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;1.4k</span></p>
                 <p className="body left height-lg">Simple iPhone devices for bringing mobile designs to life.</p>
               </div>
             </div>

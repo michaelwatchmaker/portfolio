@@ -99,7 +99,7 @@ const About = () => {
               </div>
               <div className="content-block">
                 <p className="body left semibold height-md">Stockd, 3rd place</p>
-                <p className="body left height-lg text-alt">Miami University Startup Weekend, 2018</p>
+                <p className="body left height-lg text-alt">Miami University Startup Competition, 2018</p>
               </div>
             </div>
           </div>

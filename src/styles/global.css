@@ -208,7 +208,6 @@ img {
 
   .project-tile:hover {
     filter: brightness(0.9);
-    border-radius: var(--radius-md);
   }
   
   .project-tile:hover img{

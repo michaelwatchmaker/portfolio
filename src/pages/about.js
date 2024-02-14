@@ -94,6 +94,10 @@ const About = () => {
                 <p className="body left height-lg text-alt">PM360 Trailblazer Awards, 2023</p>
               </div>
               <div className="content-block">
+                <p className="body left semibold height-md">Health & Wellness, Nominee</p>
+                <p className="body left height-lg text-alt">Webby Awards, 2020</p>
+              </div>
+              <div className="content-block">
                 <p className="body left semibold height-md">Best Telehealth Company</p>
                 <p className="body left height-lg text-alt">UCSF Digital Health Awards, 2020</p>
               </div>

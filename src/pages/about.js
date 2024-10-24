@@ -71,6 +71,14 @@ const About = () => {
                   <div className="bubble"></div>
                   <p className="meta medium left height-md" style={{color: '#2B9F60'}}>Current</p>
                 </div>
+                <p className="body left semibold height-md">Design Lead&nbsp;<span style={{color: '#767680', fontWeight: 440}}>&nbsp;Overhere</span></p>
+                <p className="body left height-lg">Worked with cofounders to formulate product strategy and improve beta experience. Generated logo and brand assets.</p>
+              </div>
+              <div className="content-block">
+                <p className="body left semibold height-md">Senior Product Designer&nbsp;<span style={{color: '#767680', fontWeight: 440}}>&nbsp;FotMob</span></p>
+                <p className="body left height-lg">Developed concepts for improving fan engagement during weekdays and created strategy for premium subscriptions.</p>
+              </div>
+              <div className="content-block">
                 <p className="body left semibold height-md">Senior Product Designer&nbsp;<span style={{color: '#767680', fontWeight: 440}}>&nbsp;GoodRx</span></p>
                 <p className="body left height-lg">Stood up <a className="link-md height-sm" href="https://www.goodrx.com/healthcare-professionals" target="_blank" rel="noreferrer">Provider Mode</a>, a new savings platform for doctors to help their patients afford their medications. With 500k+ healthcare providers on board, it’s the largest platform of it’s kind.</p>
               </div>
@@ -116,11 +124,11 @@ const About = () => {
             </div>
             <div className="split-section-right">
               <div className="content-block">
-                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1238382497451166577/skeleton-kit" target="_blank" rel="noreferrer">Skeleton Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;1.2k</span></p>
+                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1238382497451166577/skeleton-kit" target="_blank" rel="noreferrer">Skeleton Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;2.9k</span></p>
                 <p className="body left height-lg">Flexible skeleton loading components for building rich prototype experiences.</p>
               </div>
               <div className="content-block">
-                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1243277831182040724/iphone-kit" target="_blank" rel="noreferrer">iPhone Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;1.4k</span></p>
+                <p className="body left semibold height-md"><a className="link-md" href="https://www.figma.com/community/file/1243277831182040724/iphone-kit" target="_blank" rel="noreferrer">iPhone Kit</a><span style={{color: '#767680', fontWeight: 440}}>&nbsp;&nbsp;1.9k</span></p>
                 <p className="body left height-lg">Simple iPhone devices for bringing mobile designs to life.</p>
               </div>
             </div>

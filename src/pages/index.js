@@ -19,9 +19,9 @@ const Home = () => {
       <Navigation/>
       <main>
         <div className="header-section animated">
-          <h1 className="left height-md">Hey, I’m Michael – a designer that develops systems to simplify complex things. Currently a Senior Product Designer at&nbsp;
-            <a href="https://goodrx.com" target="_blank" rel="noreferrer" style={{width: 'fit-content'}} className="link-lg">
-              <h1 className="height-sm">GoodRx</h1>
+          <h1 className="left height-md">Hey, I’m Michael – a designer that develops systems to simplify complex things. Currently the Design Lead at&nbsp;
+            <a href="https://joinoverhere.com/" target="_blank" rel="noreferrer" style={{width: 'fit-content'}} className="link-lg">
+              <h1 className="height-sm">Overhere</h1>
             </a>
             .
           </h1>
